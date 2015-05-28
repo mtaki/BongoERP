@@ -27,11 +27,11 @@ use yii\widgets\ActiveForm;
         
       
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
           <div class="block-web">
             <div class="header">
               <div class="actions"> <a class="minimize" href="#"><i class="fa fa-chevron-down"></i></a>
-		<a class="close-down" href="#"><i class="fa fa-times"></i></a> </div>
+				<a class="close-down" href="#"><i class="fa fa-times"></i></a> </div>
               <h3 class="content-header">Create users</h3>
             </div>
             <div class="porlets-content">
@@ -41,13 +41,16 @@ use yii\widgets\ActiveForm;
 					<div class="form-group">
                   	<label class="col-sm-3 control-label">Password</label>
                   	<div class="col-sm-9"><input type="text" name="password" ng-model="users.password"class="form-control"></div>
-                	</div><!--/form-group-->
+                	
+					<label class="col-sm-3 control-label">Id</label>
+                  	<div class="col-sm-9"><input type="text" name="id" ng-model="users.id"class="form-control"></div>
+					</div><!--/form-group-->
 			
 
-			<div class="form-group">
+					<!--<div class="form-group">
                   	<label class="col-sm-3 control-label">Id</label>
                   	<div class="col-sm-9"><input type="text" name="id" ng-model="users.id"class="form-control"></div>
-                	</div><!--/form-group-->
+                	</div>/form-group-->
 			
 
 			<div class="form-group">

@@ -2,7 +2,7 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=UchumiERP',
+    'dsn' => 'mysql:host=localhost;dbname=bongoerp',
     'username' => 'root',
     'password' => '',
     'charset' => 'utf8',
