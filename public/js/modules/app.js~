@@ -1,0 +1,16 @@
+'use strict';
+var serviceBase = 'http://localhost:81/yii/yii1/web/'
+var app = angular.module('app', ['ngRoute','SiteControllers','AppServices']);
+
+
+app.config(['$routeProvider',function($routeProvider){
+		$routeProvider.
+		when("/home",{controller:"SiteController",templateUrl:"pages/site/home.html"}).
+		when("/",{controller:"SiteController",templateUrl:"pages/site/home.html"}).
+		when("/about",{controller:"SiteController",templateUrl:"pages/site/about.html"}).
+		when("/books",{controller:"SiteController",templateUrl:"pages/users/index.html"}).
+		when("/book/create",{controller:"SiteController",templateUrl:"pages/users/create.html"}).
+		when("/companySetup",{controller:"SiteController",templateUrl:"pages/companySetup/partials/company-setup.html"}).
+		otherwise({RedirectTo:"pages/site/home.html"});
+		}]);
+		

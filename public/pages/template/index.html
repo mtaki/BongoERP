@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="app">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>BONGO ERP</title>
+<base href="/yii/BongoERP/public/"/>
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="css/animate.css" rel="stylesheet" type="text/css" />
+<link href="css/admin.css" rel="stylesheet" type="text/css" />
+<link href="plugins/toggle-switch/toggles.css" rel="stylesheet" type="text/css" />
+<link href="plugins/checkbox/icheck.css" rel="stylesheet" type="text/css" />
+<link href="plugins/checkbox/minimal/blue.css" rel="stylesheet" type="text/css" />
+<link href="plugins/checkbox/minimal/green.css" rel="stylesheet" type="text/css" />
+<link href="plugins/checkbox/minimal/grey.css" rel="stylesheet" type="text/css" />
+<link href="plugins/checkbox/minimal/orange.css" rel="stylesheet" type="text/css" />
+<link href="plugins/checkbox/minimal/pink.css" rel="stylesheet" type="text/css" />
+<link href="plugins/checkbox/minimal/purple.css" rel="stylesheet" type="text/css" />
+<link href="plugins/bootstrap-fileupload/bootstrap-fileupload.min.css" rel="stylesheet">
+<link href="plugins/dropzone/dropzone.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="plugins/bootstrap-datepicker/css/datepicker.css" />
+<link rel="stylesheet" type="text/css" href="plugins/bootstrap-timepicker/compiled/timepicker.css" />
+<link rel="stylesheet" type="text/css" href="plugins/bootstrap-colorpicker/css/colorpicker.css" />
+
+
+
+
+
+<!-- JS -->
+  <script src="lib/angular/angular.min.js"></script>
+  <script src="lib/angular/angular-route.min.js"></script>
+  <script src="lib/angular/angular-resource.js"></script>
+  <script src="lib/angular/angular-animate.min.js"></script>
+  
+  <script src="js/modules/app.js"></script>
+  <script src="js/services/services.js"></script>
+  <script src="js/controllers/site-controller.js"></script>
+  
+ <script src="js/jPushMenu.js"></script> 
+<script src="js/side-chats.js"></script>
+ <script src="js/jquery-2.1.0.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/common-script.js"></script>
+<script src="js/jquery.slimscroll.min.js"></script>
+<script type="text/javascript"  src="plugins/toggle-switch/toggles.min.js"></script> 
+<script src="plugins/checkbox/zepto.js"></script>
+<script src="plugins/checkbox/icheck.js"></script>
+<script src="js/icheck-init.js"></script>
+<script src="js/jquery.slimscroll.min.js"></script>
+<script src="js/icheck.js"></script>
+<script type="text/javascript" src="plugins/bootstrap-datepicker/js/bootstrap-datepicker.js"></script> 
+<script type="text/javascript" src="plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script> 
+<script type="text/javascript" src="plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script> 
+<script type="text/javascript" src="plugins/bootstrap-timepicker/js/bootstrap-timepicker.js"></script> 
+<script type="text/javascript" src="js/form-components.js"></script> 
+<script type="text/javascript"  src="plugins/input-mask/jquery.inputmask.min.js"></script> 
+<script type="text/javascript"  src="plugins/input-mask/demo-mask.js"></script> 
+<script type="text/javascript"  src="plugins/bootstrap-fileupload/bootstrap-fileupload.min.js"></script> 
+<script type="text/javascript"  src="plugins/dropzone/dropzone.min.js"></script> 
+<script type="text/javascript" src="plugins/ckeditor/ckeditor.js"></script>
+
+</head>
+<body class="light_theme  fixed_header left_nav_fixed">
+<div class="wrapper">
+  <!--\\\\\\\ wrapper Start \\\\\\-->
+
+  
+  <ng-include src="'pages/header.html'"></ng-include>
+  
+  <div class="inner">
+    <!--\\\\\\\ inner start \\\\\\-->
+	<ng-include src="'pages/side_bar.html'"></ng-include>
+	<div ng-view></div>
+    
+  </div>
+  <!--\\\\\\\ inner end\\\\\\-->
+</div>
+<!--\\\\\\\ wrapper end\\\\\\-->
+<!-- Modal -->
+
+<script>
+/*==Porlets Actions==*/
+    $('.minimize').click(function(e){
+      var h = $(this).parents(".header");
+      var c = h.next('.porlets-content');
+      var p = h.parent();
+      
+      c.slideToggle();
+      
+      p.toggleClass('closed');
+      
+      e.preventDefault();
+    });
+    
+    $('.refresh').click(function(e){
+      var h = $(this).parents(".header");
+      var p = h.parent();
+      var loading = $('&lt;div class="loading"&gt;&lt;i class="fa fa-refresh fa-spin"&gt;&lt;/i&gt;&lt;/div&gt;');
+      
+      loading.appendTo(p);
+      loading.fadeIn();
+      setTimeout(function() {
+        loading.fadeOut();
+      }, 1000);
+      
+      e.preventDefault();
+    });
+    
+    $('.close-down').click(function(e){
+      var h = $(this).parents(".header");
+      var p = h.parent();
+      
+      p.fadeOut(function(){
+        $(this).remove();
+      });
+      e.preventDefault();
+    });
+
+</script>
+
+
+
+
+
+</body>
+</html>
