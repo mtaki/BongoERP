@@ -1,14 +1,14 @@
 <?php
 
-namespace app\modules\setting\models;
+namespace app\modules\setting\Models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\modules\setting\models\CompanySetup;
+use app\modules\setting\Models\CompanySetup;
 
 /**
- * CompanySetupSearch represents the model behind the search form about `app\modules\setting\models\CompanySetup`.
+ * CompanySetupSearch represents the model behind the search form about `app\modules\setting\Models\CompanySetup`.
  */
 class CompanySetupSearch extends CompanySetup
 {

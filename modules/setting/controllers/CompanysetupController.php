@@ -3,41 +3,28 @@
 namespace app\modules\setting\controllers;
 
 use Yii;
-use app\modules\setting\models\CompanySetup;
-use app\modules\setting\models\CompanySetupSearch;
+use app\modules\setting\Models\CompanySetup;
+use app\modules\setting\Models\CompanySetupSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use yii\rest\ActiveController;
-use yii\web\Response;
 
 /**
  * CompanysetupController implements the CRUD actions for CompanySetup model.
  */
 class CompanysetupController extends Controller
 {
-    public $modelClass = 'app\modules\setting\models\CompanySetup';
-	 public function behaviors()
-{
-    return [
-	 'corsFilter' => [
-            'class' => \yii\filters\Cors::className(),
-        ],
-        [
-            'class' => 'yii\filters\ContentNegotiator',
-            'only' => ['view', 'index','create'],  // in a controller
-            // if in a module, use the following IDs for user actions
-            // 'only' => ['user/view', 'user/index']
-            'formats' => [
-                'application/json' => Response::FORMAT_JSON,
+    public function behaviors()
+    {
+        return [
+            'verbs' => [
+                'class' => VerbFilter::className(),
+                'actions' => [
+                    'delete' => ['post'],
+                ],
             ],
-            'languages' => [
-                'en',
-                'de',
-            ],
-        ],
-    ];
-}
+        ];
+    }
 
     /**
      * Lists all CompanySetup models.

@@ -4,6 +4,7 @@ use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
+use yii\helpers\Url;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
@@ -82,7 +83,7 @@ use app\assets\AppAsset;
   
   <div class="inner">
     <!--\\\\\\\ inner start \\\\\\-->
-	<?php include('side_bar.html');?>
+	<?php include('server_bar.php');?>
 	<div > <?= $content ?></div>
     
   </div>

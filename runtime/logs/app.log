@@ -10905,3 +10905,2488 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1432813790.737
     'REQUEST_TIME' => 1432813790
 ]
+2015-06-01 09:40:15 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'include(server_bar.html): failed to open stream: No such file or directory' in C:\wamp\www\yii\BongoERP\themes\app\views\layouts\main.php:85
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 C:\wamp\www\yii\BongoERP\controllers\SiteController.php(52): yii\base\Controller->render()
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-06-01 09:40:15 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '5a77fdf6d681282946257f0f5c5a6328dee6cc394ee53dfebfd0c9ef69dd0726a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-xQYXRGfBSOhmi08KL_xgjlA4ykldaAk\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=5a77fdf6d681282946257f0f5c5a6328dee6cc394ee53dfebfd0c9ef69dd0726a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-xQYXRGfBSOhmi08KL_xgjlA4ykldaAk%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '57486'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433144415.773
+    'REQUEST_TIME' => 1433144415
+]
+2015-06-01 09:45:21 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Undefined class constant 'baseurl'' in C:\wamp\www\yii\BongoERP\themes\app\views\layouts\server_bar.html:1
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#4 C:\wamp\www\yii\BongoERP\controllers\SiteController.php(52): yii\base\Controller->render()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#10 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#11 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2015-06-01 09:45:21 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '5a77fdf6d681282946257f0f5c5a6328dee6cc394ee53dfebfd0c9ef69dd0726a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-xQYXRGfBSOhmi08KL_xgjlA4ykldaAk\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=5a77fdf6d681282946257f0f5c5a6328dee6cc394ee53dfebfd0c9ef69dd0726a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-xQYXRGfBSOhmi08KL_xgjlA4ykldaAk%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '57536'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433144721.357
+    'REQUEST_TIME' => 1433144721
+]
+2015-06-01 09:45:39 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\web\Application::baseurl' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\di\ServiceLocator.php(73): yii\base\Component->__get('baseurl')
+#1 C:\wamp\www\yii\BongoERP\themes\app\views\layouts\server_bar.html(1): yii\di\ServiceLocator->__get('baseurl')
+#2 C:\wamp\www\yii\BongoERP\themes\app\views\layouts\main.php(85): include('C:\\wamp\\www\\yii...')
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): require('C:\\wamp\\www\\yii...')
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\wamp\\www\\yii...', Array)
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile('C:\\wamp\\www\\yii...', Array, Object(app\controllers\SiteController))
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent('<div class="con...')
+#7 C:\wamp\www\yii\BongoERP\controllers\SiteController.php(52): yii\base\Controller->render('index')
+#8 [internal function]: app\controllers\SiteController->actionIndex()
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#11 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#12 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#13 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2015-06-01 09:45:39 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '5a77fdf6d681282946257f0f5c5a6328dee6cc394ee53dfebfd0c9ef69dd0726a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-xQYXRGfBSOhmi08KL_xgjlA4ykldaAk\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=5a77fdf6d681282946257f0f5c5a6328dee6cc394ee53dfebfd0c9ef69dd0726a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-xQYXRGfBSOhmi08KL_xgjlA4ykldaAk%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '57543'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433144739.028
+    'REQUEST_TIME' => 1433144739
+]
+2015-06-01 09:49:25 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Url' not found' in C:\wamp\www\yii\BongoERP\themes\app\views\layouts\server_bar.html:1
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#4 C:\wamp\www\yii\BongoERP\controllers\SiteController.php(52): yii\base\Controller->render()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#10 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#11 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2015-06-01 09:49:24 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '5a77fdf6d681282946257f0f5c5a6328dee6cc394ee53dfebfd0c9ef69dd0726a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-xQYXRGfBSOhmi08KL_xgjlA4ykldaAk\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=5a77fdf6d681282946257f0f5c5a6328dee6cc394ee53dfebfd0c9ef69dd0726a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-xQYXRGfBSOhmi08KL_xgjlA4ykldaAk%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '57601'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433144964.914
+    'REQUEST_TIME' => 1433144964
+]
+2015-06-01 09:52:43 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Url' not found' in C:\wamp\www\yii\BongoERP\themes\app\views\layouts\server_bar.html:1
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#4 C:\wamp\www\yii\BongoERP\controllers\SiteController.php(52): yii\base\Controller->render()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#10 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#11 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2015-06-01 09:52:43 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '5a77fdf6d681282946257f0f5c5a6328dee6cc394ee53dfebfd0c9ef69dd0726a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-xQYXRGfBSOhmi08KL_xgjlA4ykldaAk\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=5a77fdf6d681282946257f0f5c5a6328dee6cc394ee53dfebfd0c9ef69dd0726a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-xQYXRGfBSOhmi08KL_xgjlA4ykldaAk%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '57620'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433145163.039
+    'REQUEST_TIME' => 1433145163
+]
+2015-06-01 09:55:55 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Url' not found' in C:\wamp\www\yii\BongoERP\themes\app\views\layouts\server_bar.html:2
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#4 C:\wamp\www\yii\BongoERP\controllers\SiteController.php(52): yii\base\Controller->render()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#10 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#11 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2015-06-01 09:55:55 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '5a77fdf6d681282946257f0f5c5a6328dee6cc394ee53dfebfd0c9ef69dd0726a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-xQYXRGfBSOhmi08KL_xgjlA4ykldaAk\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=5a77fdf6d681282946257f0f5c5a6328dee6cc394ee53dfebfd0c9ef69dd0726a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-xQYXRGfBSOhmi08KL_xgjlA4ykldaAk%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '57633'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433145355.179
+    'REQUEST_TIME' => 1433145355
+]
+2015-06-01 09:56:49 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Url' not found' in C:\wamp\www\yii\BongoERP\themes\app\views\layouts\server_bar.php:2
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#4 C:\wamp\www\yii\BongoERP\controllers\SiteController.php(52): yii\base\Controller->render()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#10 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#11 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2015-06-01 09:56:49 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '5a77fdf6d681282946257f0f5c5a6328dee6cc394ee53dfebfd0c9ef69dd0726a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-xQYXRGfBSOhmi08KL_xgjlA4ykldaAk\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=5a77fdf6d681282946257f0f5c5a6328dee6cc394ee53dfebfd0c9ef69dd0726a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-xQYXRGfBSOhmi08KL_xgjlA4ykldaAk%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '57642'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433145409.184
+    'REQUEST_TIME' => 1433145409
+]
+2015-06-01 10:14:33 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot use yii\helpers\Url as Url because the name is already in use' in C:\wamp\www\yii\BongoERP\themes\app\views\layouts\server_bar.php:30
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent()
+#3 C:\wamp\www\yii\BongoERP\controllers\SiteController.php(52): yii\base\Controller->render()
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): app\controllers\SiteController->actionIndex()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-06-01 10:14:33 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '5a77fdf6d681282946257f0f5c5a6328dee6cc394ee53dfebfd0c9ef69dd0726a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-xQYXRGfBSOhmi08KL_xgjlA4ykldaAk\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=5a77fdf6d681282946257f0f5c5a6328dee6cc394ee53dfebfd0c9ef69dd0726a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-xQYXRGfBSOhmi08KL_xgjlA4ykldaAk%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '58031'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433146473.468
+    'REQUEST_TIME' => 1433146473
+]
+2015-06-01 10:20:51 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'yii' does not exist: C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2/messages/en/yii.php
+    in C:\wamp\www\yii\BongoERP\modules\setting\models\UsersSearch.php:32
+    in C:\wamp\www\yii\BongoERP\modules\setting\models\UsersSearch.php:52
+    in C:\wamp\www\yii\BongoERP\modules\setting\controllers\UsersController.php:49
+2015-06-01 10:20:53 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\wamp\www\yii\BongoERP/messages/en/app.php
+    in C:\wamp\www\yii\BongoERP\modules\setting\views\users\index.php:10
+    in C:\wamp\www\yii\BongoERP\modules\setting\controllers\UsersController.php:54
+2015-06-01 10:20:50 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '5a77fdf6d681282946257f0f5c5a6328dee6cc394ee53dfebfd0c9ef69dd0726a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-xQYXRGfBSOhmi08KL_xgjlA4ykldaAk\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=5a77fdf6d681282946257f0f5c5a6328dee6cc394ee53dfebfd0c9ef69dd0726a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-xQYXRGfBSOhmi08KL_xgjlA4ykldaAk%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '58110'
+    'REDIRECT_URL' => '/yii/BongoERP/web/setting/users/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/setting/users/index'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433146850.065
+    'REQUEST_TIME' => 1433146850
+]
+2015-06-01 13:31:55 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\index.php' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\yii...', Array, Object(app\modules\setting\controllers\CompanysetupController))
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index', Array, Object(app\modules\setting\controllers\CompanysetupController))
+#2 C:\wamp\www\yii\BongoERP\modules\setting\controllers\CompanysetupController.php(41): yii\base\Controller->render('index', Array)
+#3 [internal function]: app\modules\setting\controllers\CompanysetupController->actionIndex()
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('setting/company...', Array)
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2015-06-01 13:31:55 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '60052'
+    'REDIRECT_URL' => '/yii/BongoERP/web/setting/companysetup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/setting/companysetup'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433158315.38
+    'REQUEST_TIME' => 1433158315
+]
+2015-06-01 13:33:00 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\index.php' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\yii...', Array, Object(app\modules\setting\controllers\CompanysetupController))
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index', Array, Object(app\modules\setting\controllers\CompanysetupController))
+#2 C:\wamp\www\yii\BongoERP\modules\setting\controllers\CompanysetupController.php(41): yii\base\Controller->render('index', Array)
+#3 [internal function]: app\modules\setting\controllers\CompanysetupController->actionIndex()
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('setting/company...', Array)
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2015-06-01 13:33:00 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '60072'
+    'REDIRECT_URL' => '/yii/BongoERP/web/setting/companysetup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/setting/companysetup'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433158380.049
+    'REQUEST_TIME' => 1433158380
+]
+2015-06-01 14:19:45 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '=>' (T_DOUBLE_ARROW)' in C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\_form.php:170
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#1 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\update.php(22): yii\base\View->render()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#6 C:\wamp\www\yii\BongoERP\modules\setting\controllers\CompanysetupController.php(89): yii\base\Controller->render()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): app\modules\setting\controllers\CompanysetupController->actionUpdate()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#10 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#11 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#12 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#13 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2015-06-01 14:19:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/setting/companysetup/view?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '60466'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/yii/BongoERP/web/setting/companysetup/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/yii/BongoERP/web/setting/companysetup/update?id=1'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433161185.169
+    'REQUEST_TIME' => 1433161185
+]
+2015-06-01 14:30:26 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\modules\setting\models\CompanySetup::sample_text' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('sample_text')
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\helpers\BaseHtml.php(1930): yii\db\BaseActiveRecord->__get('sample_text')
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\helpers\BaseHtml.php(1295): yii\helpers\BaseHtml::getAttributeValue(Object(app\modules\setting\models\CompanySetup), 'sample_text')
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\widgets\ActiveField.php(445): yii\helpers\BaseHtml::activeTextarea(Object(app\modules\setting\models\CompanySetup), 'sample_text', Array)
+#4 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\_form.php(171): yii\widgets\ActiveField->textarea()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): require('C:\\wamp\\www\\yii...')
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\wamp\\www\\yii...', Array)
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\yii...', Array, NULL)
+#8 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\update.php(22): yii\base\View->render('_form', Array)
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): require('C:\\wamp\\www\\yii...')
+#10 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\wamp\\www\\yii...', Array)
+#11 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\yii...', Array, Object(app\modules\setting\controllers\CompanysetupController))
+#12 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('update', Array, Object(app\modules\setting\controllers\CompanysetupController))
+#13 C:\wamp\www\yii\BongoERP\modules\setting\controllers\CompanysetupController.php(89): yii\base\Controller->render('update', Array)
+#14 [internal function]: app\modules\setting\controllers\CompanysetupController->actionUpdate('1')
+#15 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#16 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#17 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('update', Array)
+#18 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('setting/company...', Array)
+#19 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#21 {main}
+2015-06-01 14:30:26 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/setting/companysetup/view?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '60497'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/yii/BongoERP/web/setting/companysetup/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/yii/BongoERP/web/setting/companysetup/update?id=1'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433161826.508
+    'REQUEST_TIME' => 1433161826
+]
+2015-06-01 14:34:23 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '?>'' in C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\_form.php:170
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#1 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\update.php(22): yii\base\View->render()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#6 C:\wamp\www\yii\BongoERP\modules\setting\controllers\CompanysetupController.php(89): yii\base\Controller->render()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): app\modules\setting\controllers\CompanysetupController->actionUpdate()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#10 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#11 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#12 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#13 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2015-06-01 14:34:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/setting/companysetup/view?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '60550'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/yii/BongoERP/web/setting/companysetup/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/yii/BongoERP/web/setting/companysetup/update?id=1'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433162063.185
+    'REQUEST_TIME' => 1433162063
+]
+2015-06-01 14:43:55 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\widgets\ActiveForm::label()' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\_form.php(172): yii\base\Component->__call('label', Array)
+#1 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\_form.php(172): yii\widgets\ActiveForm->label('CompanyName', Array)
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): require('C:\\wamp\\www\\yii...')
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\wamp\\www\\yii...', Array)
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\yii...', Array, NULL)
+#5 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\update.php(22): yii\base\View->render('_form', Array)
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): require('C:\\wamp\\www\\yii...')
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\wamp\\www\\yii...', Array)
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\yii...', Array, Object(app\modules\setting\controllers\CompanysetupController))
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('update', Array, Object(app\modules\setting\controllers\CompanysetupController))
+#10 C:\wamp\www\yii\BongoERP\modules\setting\controllers\CompanysetupController.php(89): yii\base\Controller->render('update', Array)
+#11 [internal function]: app\modules\setting\controllers\CompanysetupController->actionUpdate('1')
+#12 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('update', Array)
+#15 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('setting/company...', Array)
+#16 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#18 {main}
+2015-06-01 14:43:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/setting/companysetup/view?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '60577'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/yii/BongoERP/web/setting/companysetup/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/yii/BongoERP/web/setting/companysetup/update?id=1'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433162635.103
+    'REQUEST_TIME' => 1433162635
+]
+2015-06-01 14:48:30 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot use yii\bootstrap\ActiveForm as ActiveForm because the name is already in use' in C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\_form.php:169
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#1 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\update.php(22): yii\base\View->render()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#6 C:\wamp\www\yii\BongoERP\modules\setting\controllers\CompanysetupController.php(89): yii\base\Controller->render()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): app\modules\setting\controllers\CompanysetupController->actionUpdate()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#10 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#11 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#12 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#13 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2015-06-01 14:48:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/setting/companysetup/view?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '60616'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/yii/BongoERP/web/setting/companysetup/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/yii/BongoERP/web/setting/companysetup/update?id=1'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433162909.9
+    'REQUEST_TIME' => 1433162909
+]
+2015-06-01 14:48:55 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\bootstrap\ActiveForm::label()' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\_form.php(174): yii\base\Component->__call('label', Array)
+#1 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\_form.php(174): yii\bootstrap\ActiveForm->label('CompanyName', Array)
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): require('C:\\wamp\\www\\yii...')
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\wamp\\www\\yii...', Array)
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\yii...', Array, NULL)
+#5 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\update.php(22): yii\base\View->render('_form', Array)
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): require('C:\\wamp\\www\\yii...')
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\wamp\\www\\yii...', Array)
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\yii...', Array, Object(app\modules\setting\controllers\CompanysetupController))
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('update', Array, Object(app\modules\setting\controllers\CompanysetupController))
+#10 C:\wamp\www\yii\BongoERP\modules\setting\controllers\CompanysetupController.php(89): yii\base\Controller->render('update', Array)
+#11 [internal function]: app\modules\setting\controllers\CompanysetupController->actionUpdate('1')
+#12 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('update', Array)
+#15 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('setting/company...', Array)
+#16 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#18 {main}
+2015-06-01 14:48:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/setting/companysetup/view?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '60620'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/yii/BongoERP/web/setting/companysetup/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/yii/BongoERP/web/setting/companysetup/update?id=1'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433162935.199
+    'REQUEST_TIME' => 1433162935
+]
+2015-06-01 14:51:08 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\bootstrap\ActiveForm::label()' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\_form.php(175): yii\base\Component->__call('label', Array)
+#1 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\_form.php(175): yii\bootstrap\ActiveForm->label('CompanyName', Array)
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): require('C:\\wamp\\www\\yii...')
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\wamp\\www\\yii...', Array)
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\yii...', Array, NULL)
+#5 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\update.php(22): yii\base\View->render('_form', Array)
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): require('C:\\wamp\\www\\yii...')
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\wamp\\www\\yii...', Array)
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\yii...', Array, Object(app\modules\setting\controllers\CompanysetupController))
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('update', Array, Object(app\modules\setting\controllers\CompanysetupController))
+#10 C:\wamp\www\yii\BongoERP\modules\setting\controllers\CompanysetupController.php(89): yii\base\Controller->render('update', Array)
+#11 [internal function]: app\modules\setting\controllers\CompanysetupController->actionUpdate('1')
+#12 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('update', Array)
+#15 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('setting/company...', Array)
+#16 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#18 {main}
+2015-06-01 14:51:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/setting/companysetup/view?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '60630'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/yii/BongoERP/web/setting/companysetup/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/yii/BongoERP/web/setting/companysetup/update?id=1'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433163068.659
+    'REQUEST_TIME' => 1433163068
+]
+2015-06-01 14:52:47 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function formName() on a non-object' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\helpers\BaseHtml.php:1975
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\helpers\BaseHtml.php(1061): yii\helpers\BaseHtml::getInputId()
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\widgets\ActiveField.php(263): yii\helpers\BaseHtml::activeLabel()
+#2 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\_form.php(176): yii\widgets\ActiveField->label()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#6 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\update.php(22): yii\base\View->render()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#10 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#11 C:\wamp\www\yii\BongoERP\modules\setting\controllers\CompanysetupController.php(89): yii\base\Controller->render()
+#12 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): app\modules\setting\controllers\CompanysetupController->actionUpdate()
+#13 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#14 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#15 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#16 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#17 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#18 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#19 {main}
+2015-06-01 14:52:46 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/setting/companysetup/view?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '60637'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/yii/BongoERP/web/setting/companysetup/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/yii/BongoERP/web/setting/companysetup/update?id=1'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433163166.972
+    'REQUEST_TIME' => 1433163166
+]
+2015-06-01 14:54:33 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\bootstrap\ActiveField::text()' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\_form.php(177): yii\base\Component->__call('text', Array)
+#1 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\_form.php(177): yii\bootstrap\ActiveField->text(Array)
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): require('C:\\wamp\\www\\yii...')
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\wamp\\www\\yii...', Array)
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\yii...', Array, NULL)
+#5 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\update.php(22): yii\base\View->render('_form', Array)
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): require('C:\\wamp\\www\\yii...')
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\wamp\\www\\yii...', Array)
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\yii...', Array, Object(app\modules\setting\controllers\CompanysetupController))
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('update', Array, Object(app\modules\setting\controllers\CompanysetupController))
+#10 C:\wamp\www\yii\BongoERP\modules\setting\controllers\CompanysetupController.php(89): yii\base\Controller->render('update', Array)
+#11 [internal function]: app\modules\setting\controllers\CompanysetupController->actionUpdate('1')
+#12 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('update', Array)
+#15 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('setting/company...', Array)
+#16 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#18 {main}
+2015-06-01 14:54:33 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/setting/companysetup/view?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '60641'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/yii/BongoERP/web/setting/companysetup/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/yii/BongoERP/web/setting/companysetup/update?id=1'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433163273.679
+    'REQUEST_TIME' => 1433163273
+]
+2015-06-01 15:07:23 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'ActiveForm' not found' in C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\_form.php:170
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#2 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\update.php(22): yii\base\View->render()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile()
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render()
+#7 C:\wamp\www\yii\BongoERP\modules\setting\controllers\CompanysetupController.php(89): yii\base\Controller->render()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): app\modules\setting\controllers\CompanysetupController->actionUpdate()
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#10 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#11 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#12 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#13 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#14 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2015-06-01 15:07:22 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/setting/companysetup/view?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '61145'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/yii/BongoERP/web/setting/companysetup/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/yii/BongoERP/web/setting/companysetup/update?id=1'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433164042.77
+    'REQUEST_TIME' => 1433164042
+]
+2015-06-01 15:07:57 [127.0.0.1][-][-][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: yii\widgets\ActiveField::textField()' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Component.php:285
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\_form.php(176): yii\base\Component->__call('textField', Array)
+#1 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\_form.php(176): yii\widgets\ActiveField->textField(Array)
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): require('C:\\wamp\\www\\yii...')
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\wamp\\www\\yii...', Array)
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\yii...', Array, NULL)
+#5 C:\wamp\www\yii\BongoERP\modules\setting\views\companysetup\update.php(22): yii\base\View->render('_form', Array)
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): require('C:\\wamp\\www\\yii...')
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\wamp\\www\\yii...', Array)
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\wamp\\www\\yii...', Array, Object(app\modules\setting\controllers\CompanysetupController))
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('update', Array, Object(app\modules\setting\controllers\CompanysetupController))
+#10 C:\wamp\www\yii\BongoERP\modules\setting\controllers\CompanysetupController.php(89): yii\base\Controller->render('update', Array)
+#11 [internal function]: app\modules\setting\controllers\CompanysetupController->actionUpdate('1')
+#12 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('update', Array)
+#15 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('setting/company...', Array)
+#16 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#18 {main}
+2015-06-01 15:07:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/setting/companysetup/view?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '61148'
+    'REDIRECT_QUERY_STRING' => 'id=1'
+    'REDIRECT_URL' => '/yii/BongoERP/web/setting/companysetup/update'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=1'
+    'REQUEST_URI' => '/yii/BongoERP/web/setting/companysetup/update?id=1'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433164076.818
+    'REQUEST_TIME' => 1433164076
+]
+2015-06-01 15:28:56 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '<'' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\default\views\_form.php:89
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\Generator.php(317): yii\base\View->renderFile()
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\Generator.php(173): yii\gii\Generator->render()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\controllers\DefaultController.php(45): yii\gii\generators\crud\Generator->generate()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): yii\gii\controllers\DefaultController->actionView()
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2015-06-01 15:28:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'eThwNmVUSXMMAT9yIx45KhxdAFQOOCQhGws1bi8LMR1LfTpxLh8kAw=='
+    'Generator' => [
+        'modelClass' => 'app\\modules\\setting\\Models\\CompanySetup'
+        'searchModelClass' => 'app\\modules\\setting\\Models\\CompanySetupSearch'
+        'controllerClass' => 'app\\modules\\setting\\controllers\\CompanysetupController'
+        'viewPath' => 'C:\\\\wamp\\www\\yii\\BongoERP\\modules\\setting\\views\\companysetup'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '651'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:81'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '61356'
+    'REDIRECT_URL' => '/yii/BongoERP/web/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/gii/crud'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433165335.9
+    'REQUEST_TIME' => 1433165335
+]
+2015-06-01 15:30:40 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'echo' (T_ECHO)' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\default\views\_form.php:92
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\Generator.php(317): yii\base\View->renderFile()
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\Generator.php(173): yii\gii\Generator->render()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\controllers\DefaultController.php(45): yii\gii\generators\crud\Generator->generate()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): yii\gii\controllers\DefaultController->actionView()
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2015-06-01 15:30:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'eThwNmVUSXMMAT9yIx45KhxdAFQOOCQhGws1bi8LMR1LfTpxLh8kAw=='
+    'Generator' => [
+        'modelClass' => 'app\\modules\\setting\\Models\\CompanySetup'
+        'searchModelClass' => 'app\\modules\\setting\\Models\\CompanySetupSearch'
+        'controllerClass' => 'app\\modules\\setting\\controllers\\CompanysetupController'
+        'viewPath' => 'C:\\\\wamp\\www\\yii\\BongoERP\\modules\\setting\\views\\companysetup'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '651'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:81'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '61364'
+    'REDIRECT_URL' => '/yii/BongoERP/web/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/gii/crud'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433165439.916
+    'REQUEST_TIME' => 1433165439
+]
+2015-06-01 15:37:29 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to a member function label() on a non-object' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\default\views\_form.php:92
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\Generator.php(317): yii\base\View->renderFile()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\Generator.php(173): yii\gii\Generator->render()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\controllers\DefaultController.php(45): yii\gii\generators\crud\Generator->generate()
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): yii\gii\controllers\DefaultController->actionView()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-06-01 15:37:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'alNtcXNtcXAfaiI1NScBKQ82HRMYARwiCGAoKTkyCR5YFic2OCYcAA=='
+    'Generator' => [
+        'modelClass' => 'app\\modules\\setting\\Models\\CompanySetup'
+        'searchModelClass' => 'app\\modules\\setting\\Models\\CompanySetupSearch'
+        'controllerClass' => 'app\\modules\\setting\\controllers\\CompanysetupController'
+        'viewPath' => 'C:\\\\wamp\\www\\yii\\BongoERP\\modules\\setting\\views\\companysetup'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '651'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:81'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '61400'
+    'REDIRECT_URL' => '/yii/BongoERP/web/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/gii/crud'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433165849.341
+    'REQUEST_TIME' => 1433165849
+]
+2015-06-01 15:39:41 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\default\views\_form.php:92
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\Generator.php(317): yii\base\View->renderFile()
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\Generator.php(173): yii\gii\Generator->render()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\controllers\DefaultController.php(45): yii\gii\generators\crud\Generator->generate()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): yii\gii\controllers\DefaultController->actionView()
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2015-06-01 15:39:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'alNtcXNtcXAfaiI1NScBKQ82HRMYARwiCGAoKTkyCR5YFic2OCYcAA=='
+    'Generator' => [
+        'modelClass' => 'app\\modules\\setting\\Models\\CompanySetup'
+        'searchModelClass' => 'app\\modules\\setting\\Models\\CompanySetupSearch'
+        'controllerClass' => 'app\\modules\\setting\\controllers\\CompanysetupController'
+        'viewPath' => 'C:\\\\wamp\\www\\yii\\BongoERP\\modules\\setting\\views\\companysetup'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '651'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:81'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '61413'
+    'REDIRECT_URL' => '/yii/BongoERP/web/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/gii/crud'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433165981.146
+    'REQUEST_TIME' => 1433165981
+]
+2015-06-01 15:40:27 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\default\views\_form.php:92
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\Generator.php(317): yii\base\View->renderFile()
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\Generator.php(173): yii\gii\Generator->render()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\controllers\DefaultController.php(45): yii\gii\generators\crud\Generator->generate()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): yii\gii\controllers\DefaultController->actionView()
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2015-06-01 15:40:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'alNtcXNtcXAfaiI1NScBKQ82HRMYARwiCGAoKTkyCR5YFic2OCYcAA=='
+    'Generator' => [
+        'modelClass' => 'app\\modules\\setting\\Models\\CompanySetup'
+        'searchModelClass' => 'app\\modules\\setting\\Models\\CompanySetupSearch'
+        'controllerClass' => 'app\\modules\\setting\\controllers\\CompanysetupController'
+        'viewPath' => 'C:\\\\wamp\\www\\yii\\BongoERP\\modules\\setting\\views\\companysetup'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '651'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:81'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '61418'
+    'REDIRECT_URL' => '/yii/BongoERP/web/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/gii/crud'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433166027.241
+    'REQUEST_TIME' => 1433166027
+]
+2015-06-01 15:41:24 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '<'' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\default\views\_form.php:93
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\Generator.php(317): yii\base\View->renderFile()
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\Generator.php(173): yii\gii\Generator->render()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\controllers\DefaultController.php(45): yii\gii\generators\crud\Generator->generate()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): yii\gii\controllers\DefaultController->actionView()
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2015-06-01 15:41:24 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'alNtcXNtcXAfaiI1NScBKQ82HRMYARwiCGAoKTkyCR5YFic2OCYcAA=='
+    'Generator' => [
+        'modelClass' => 'app\\modules\\setting\\Models\\CompanySetup'
+        'searchModelClass' => 'app\\modules\\setting\\Models\\CompanySetupSearch'
+        'controllerClass' => 'app\\modules\\setting\\controllers\\CompanysetupController'
+        'viewPath' => 'C:\\\\wamp\\www\\yii\\BongoERP\\modules\\setting\\views\\companysetup'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '651'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:81'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '61421'
+    'REDIRECT_URL' => '/yii/BongoERP/web/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/gii/crud'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433166084.183
+    'REQUEST_TIME' => 1433166084
+]
+2015-06-01 15:45:09 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '<'' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\default\views\_form.php:93
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\Generator.php(317): yii\base\View->renderFile()
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\Generator.php(173): yii\gii\Generator->render()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\controllers\DefaultController.php(45): yii\gii\generators\crud\Generator->generate()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): yii\gii\controllers\DefaultController->actionView()
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2015-06-01 15:45:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'alNtcXNtcXAfaiI1NScBKQ82HRMYARwiCGAoKTkyCR5YFic2OCYcAA=='
+    'Generator' => [
+        'modelClass' => 'app\\modules\\setting\\Models\\CompanySetup'
+        'searchModelClass' => 'app\\modules\\setting\\Models\\CompanySetupSearch'
+        'controllerClass' => 'app\\modules\\setting\\controllers\\CompanysetupController'
+        'viewPath' => 'C:\\\\wamp\\www\\yii\\BongoERP\\modules\\setting\\views\\companysetup'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '651'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:81'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '61430'
+    'REDIRECT_URL' => '/yii/BongoERP/web/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/gii/crud'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433166308.664
+    'REQUEST_TIME' => 1433166308
+]
+2015-06-01 15:58:51 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Missing argument 1 for yii\base\Model::generateAttributeLabel(), called in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\default\views\_form.php on line 92 and defined' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Model.php:650
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(325): ::unknown()
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\Generator.php(317): yii\base\View->renderFile()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\Generator.php(173): yii\gii\Generator->render()
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\controllers\DefaultController.php(45): yii\gii\generators\crud\Generator->generate()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): yii\gii\controllers\DefaultController->actionView()
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#10 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#11 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2015-06-01 15:58:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'WTBMY1FjVVgsCQMnFyklATxVPAE6DzgKOwMJOxs8LTZrdQYkGig4KA=='
+    'Generator' => [
+        'modelClass' => 'app\\modules\\setting\\Models\\CompanySetup'
+        'searchModelClass' => 'app\\modules\\setting\\Models\\CompanySetupSearch'
+        'controllerClass' => 'app\\modules\\setting\\controllers\\CompanysetupController'
+        'viewPath' => 'C:\\\\wamp\\www\\yii\\BongoERP\\modules\\setting\\views\\companysetup'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'generate' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '652'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:81'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '61484'
+    'REDIRECT_URL' => '/yii/BongoERP/web/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/gii/crud'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433167131.186
+    'REQUEST_TIME' => 1433167131
+]
+2015-06-01 16:11:13 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: form' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\default\views\_form.php:93
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\Generator.php(317): yii\base\View->renderFile()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\Generator.php(173): yii\gii\Generator->render()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\controllers\DefaultController.php(45): yii\gii\generators\crud\Generator->generate()
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): yii\gii\controllers\DefaultController->actionView()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-06-01 16:11:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'bFEwVWYzLnEZaH8RIHleKAk0QDcNX0MjDmJ1DSxsVh9eFHoSLXhDAQ=='
+    'Generator' => [
+        'modelClass' => 'app\\modules\\setting\\Models\\CompanySetup'
+        'searchModelClass' => 'app\\modules\\setting\\Models\\CompanySetupSearch'
+        'controllerClass' => 'app\\modules\\setting\\controllers\\CompanysetupController'
+        'viewPath' => 'C:\\\\wamp\\www\\yii\\BongoERP\\modules\\setting\\views\\companysetup'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '651'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:81'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '61547'
+    'REDIRECT_URL' => '/yii/BongoERP/web/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/gii/crud'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433167872.707
+    'REQUEST_TIME' => 1433167872
+]
+2015-06-01 16:13:03 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: form' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\default\views\_form.php:93
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\Generator.php(317): yii\base\View->renderFile()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\Generator.php(173): yii\gii\Generator->render()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\controllers\DefaultController.php(45): yii\gii\generators\crud\Generator->generate()
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): yii\gii\controllers\DefaultController->actionView()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-06-01 16:13:03 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'bFEwVWYzLnEZaH8RIHleKAk0QDcNX0MjDmJ1DSxsVh9eFHoSLXhDAQ=='
+    'Generator' => [
+        'modelClass' => 'app\\modules\\setting\\Models\\CompanySetup'
+        'searchModelClass' => 'app\\modules\\setting\\Models\\CompanySetupSearch'
+        'controllerClass' => 'app\\modules\\setting\\controllers\\CompanysetupController'
+        'viewPath' => 'C:\\\\wamp\\www\\yii\\BongoERP\\modules\\setting\\views\\companysetup'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '651'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:81'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '61551'
+    'REDIRECT_URL' => '/yii/BongoERP/web/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/gii/crud'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433167983.348
+    'REQUEST_TIME' => 1433167983
+]
+2015-06-01 16:18:27 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: form' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\default\views\_form.php:93
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\Generator.php(317): yii\base\View->renderFile()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\Generator.php(173): yii\gii\Generator->render()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\controllers\DefaultController.php(45): yii\gii\generators\crud\Generator->generate()
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): yii\gii\controllers\DefaultController->actionView()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-06-01 16:18:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'bFEwVWYzLnEZaH8RIHleKAk0QDcNX0MjDmJ1DSxsVh9eFHoSLXhDAQ=='
+    'Generator' => [
+        'modelClass' => 'app\\modules\\setting\\Models\\CompanySetup'
+        'searchModelClass' => 'app\\modules\\setting\\Models\\CompanySetupSearch'
+        'controllerClass' => 'app\\modules\\setting\\controllers\\CompanysetupController'
+        'viewPath' => 'C:\\\\wamp\\www\\yii\\BongoERP\\modules\\setting\\views\\companysetup'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '651'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:81'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '61569'
+    'REDIRECT_URL' => '/yii/BongoERP/web/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/gii/crud'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433168307.639
+    'REQUEST_TIME' => 1433168307
+]
+2015-06-01 16:19:15 [127.0.0.1][-][-][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Object of class app\modules\setting\models\CompanySetup could not be converted to string' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\default\views\_form.php:93
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile()
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\Generator.php(317): yii\base\View->renderFile()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\Generator.php(173): yii\gii\Generator->render()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\controllers\DefaultController.php(45): yii\gii\generators\crud\Generator->generate()
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): yii\gii\controllers\DefaultController->actionView()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#9 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#10 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2015-06-01 16:19:15 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'bFEwVWYzLnEZaH8RIHleKAk0QDcNX0MjDmJ1DSxsVh9eFHoSLXhDAQ=='
+    'Generator' => [
+        'modelClass' => 'app\\modules\\setting\\Models\\CompanySetup'
+        'searchModelClass' => 'app\\modules\\setting\\Models\\CompanySetupSearch'
+        'controllerClass' => 'app\\modules\\setting\\controllers\\CompanysetupController'
+        'viewPath' => 'C:\\\\wamp\\www\\yii\\BongoERP\\modules\\setting\\views\\companysetup'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '651'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:81'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '61574'
+    'REDIRECT_URL' => '/yii/BongoERP/web/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/gii/crud'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433168355.175
+    'REQUEST_TIME' => 1433168355
+]
+2015-06-01 17:11:37 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '\' (T_NS_SEPARATOR), expecting ';'' in C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\default\views\_form.php:73
+Stack trace:
+#0 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\Generator.php(317): yii\base\View->renderFile()
+#1 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\generators\crud\Generator.php(173): yii\gii\Generator->render()
+#2 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2-gii\controllers\DefaultController.php(45): yii\gii\generators\crud\Generator->generate()
+#3 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): yii\gii\controllers\DefaultController->actionView()
+#4 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#6 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction()
+#7 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#8 C:\wamp\www\yii\BongoERP\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 C:\wamp\www\yii\BongoERP\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2015-06-01 17:11:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_csrf' => 'NTRaNnpZRktADRVyPBM2ElBRKlQRNSsZVwcfbjAGPiUHcRBxMRIrOw=='
+    'Generator' => [
+        'modelClass' => 'app\\modules\\setting\\Models\\CompanySetup'
+        'searchModelClass' => 'app\\modules\\setting\\Models\\CompanySetupSearch'
+        'controllerClass' => 'app\\modules\\setting\\controllers\\CompanysetupController'
+        'viewPath' => 'C:\\\\wamp\\www\\yii\\BongoERP\\modules\\setting\\views\\companysetup'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'c7tsdglfptahmki6m09gkde8r3'
+    '_csrf' => '2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:81'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '651'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:81'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:81/yii/BongoERP/web/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=c7tsdglfptahmki6m09gkde8r3; _csrf=2a42e4d7273cb1b8700b3910e1cdb8613ee9d40fb2da239be202d7e698b052e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u9ODFJpYeepbklmRb3EXJ_xn2EJGKKmp%22%3B%7D'
+    'PATH' => 'c:\\Program Files (x86)\\Intel\\iCLS Client\\;c:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\3.0\\bin\\x64;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft Visual Studio 9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files\\cURL\\bin;C:\\java\\apache-tomcat-8.0.5\\bin;C:\\wamp\\bin\\apache\\apache2.4.9\\bin;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\nodejs\\;C:\\Users\\dominic.mtaki\\AppData\\Roaming\\npm\\;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win64) PHP/5.5.12 Server at localhost Port 81</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win64) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '81'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '62028'
+    'REDIRECT_URL' => '/yii/BongoERP/web/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/gii/crud'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433171497.476
+    'REQUEST_TIME' => 1433171497
+]

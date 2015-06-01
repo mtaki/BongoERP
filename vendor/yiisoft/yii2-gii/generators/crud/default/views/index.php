@@ -43,7 +43,7 @@ $this->params['breadcrumbs'][] = $this->title;
         
       
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
           <div class="block-web">
             <div class="header">
               <div class="actions"> <a class="minimize" href="#"><i class="fa fa-chevron-down"></i></a>

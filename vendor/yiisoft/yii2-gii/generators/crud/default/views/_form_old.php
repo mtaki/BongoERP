@@ -4,12 +4,6 @@ use yii\helpers\Inflector;
 use yii\helpers\StringHelper;
 
 /* @var $this yii\web\View */
-
-/*+++++++++++++++++++ 
-Designed by: dominic Lawrence Mtaki
-Email::chottomtaki@gmail.com
-skype id:m_mtaki
-******************************/
 /* @var $generator yii\gii\generators\crud\Generator */
 
 /* @var $model \yii\db\ActiveRecord */
@@ -57,36 +51,58 @@ use yii\widgets\ActiveForm;
               <h3 class="content-header">Create <?= Inflector::camel2id(StringHelper::basename($generator->modelClass)) ?></h3>
             </div>
             <div class="porlets-content">
-           
+            <form  name="<?= Inflector::camel2id(StringHelper::basename($generator->modelClass)) ?>-form" class="form-horizontal row-border">
 
 
-<?= "<?php " ?>$form = ActiveForm::begin(["class"=>"form-horizontal row-border"]); ?>
+		<?php foreach ($generator->getColumnNames() as $attribute):?>
+			<div class="form-group">
+                  	<label class="col-sm-3 control-label"><?php echo ucfirst(str_replace("_"," ",$attribute)) ;?></label>
+                  	<div class="col-sm-9">
+					<input type="text" name="<?php echo $attribute;?>" class="form-control"></div>
+                	</div><!--/form-group-->
+			<?php 
+			echo "\n\n";
+			endforeach;?>
 
-	<?php foreach ($generator->getColumnNames() as $attribute):
-		if (in_array($attribute, $safeAttributes)):?>
-		 <div class="form-group">
-		   <label class="col-sm-2 control-label"><?php echo ucfirst(str_replace("_"," ",$attribute)) ;?></label>
-           <div class="col-sm-4">
-			<?php echo "<?= "."$"."form->field($"."model,'" .$attribute . "')->textInput(['maxlength' => true])->label('') ?>";?>
-			</div>
-		</div><!--/form-group-->
-		<?php endif;?>
-		
-	<?php endforeach;?>
-			
-	  <div class="bottom">
-		 <?= "<?= " ?>Html::submitButton($model->isNewRecord ? <?= $generator->generateString('Create') ?> : <?= $generator->generateString('Update') ?>, ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
-          <button type="button" class="btn btn-default">Cancel</button>
-      </div>
-   
-
- <?= "<?php " ?>ActiveForm::end(); ?>
   
- 
+
+
+
+		 
+
+          
+                <div class="bottom">
+                  <button type="submit" class="btn btn-primary">Create</button>
+                  <button type="button" class="btn btn-default">Cancel</button>
+                </div><!--/form-group-->
+              </form>
             </div><!--/porlets-content-->
           </div><!--/block-web--> 
         </div><!--/col-md-6-->
         
+       
+        
+ <?= "<?php " ?>$form = ActiveForm::begin(); ?>
+
+<?php foreach ($generator->getColumnNames() as $attribute):
+    if (in_array($attribute, $safeAttributes)):?>
+		<div class="form-group">
+		   <label class="col-sm-3 control-label"><?php echo ucfirst(str_replace("_"," ",$attribute)) ;?></label>
+           <div class="col-sm-9">
+		
+				<?php echo "<?= "."$"."form->field($"."model,'" .$attribute . "')->textInput(['maxlength' => true])->label('') ?>\n\n";?>
+		
+				</div>
+		</div><!--/form-group-->
+			<?php endif;?>
+			<?php endforeach;?>
+			
+
+    <div class="form-group">
+        <?= "<?= " ?>Html::submitButton($model->isNewRecord ? <?= $generator->generateString('Create') ?> : <?= $generator->generateString('Update') ?>, ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
+    </div>
+
+    <?= "<?php " ?>ActiveForm::end(); ?>
 
 </div>
       </div>
