@@ -13,7 +13,7 @@ echo Url::to(['post/index']);
         <ul>
           <li class="left_nav_active theme_border"><a href="javascript:void(0);"><i class="fa fa-home"></i> DASHBOARD <span class="left_nav_pointer"></span> <span class="plus"><i class="fa fa-plus"></i></span> </a>
             <ul class="opened" style="display:block">
-              <li> <a href="pages/index.html#/"> <span>&nbsp;</span> <i class="fa fa-circle theme_color"></i> <b class="theme_color">Dashboard</b> </a> </li>
+              <li> <a href="<?php echo Url::base();?>"> <span>&nbsp;</span> <i class="fa fa-circle theme_color"></i> <b class="theme_color">Dashboard</b> </a> </li>
              <!-- <li> <a href="pages/admin/user/index.html#/admin"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Users</b> </a> </li>
               <li> <a href="pages/admin/user/index.html#/create"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Create user</b> </a> </li>
               <li> <a href="pages/admin/user/index.html#/group"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Group</b> </a> </li>
@@ -28,25 +28,25 @@ echo Url::to(['post/index']);
    <li> <a href="javascript:void(0);"> <i class="fa fa-edit"></i>SYSTEM SETUP
 	<span class="plus"><i class="fa fa-plus"></i></span></a>
 	<ul>
-	<li> <a href="<?php echo Url::to(['setting/users/index']);?>"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Users</b> </a> </li>
-	<li> <a href="pages/admin/user/index.html#/create"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Create user</b> </a> </li>
-	<li> <a href="pages/admin/user/index.html#/group"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Group</b> </a> </li>
-	<li> <a href="pages/admin/user/index.html#/role"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Roles</b> </a> </li>
-	<li> <a href="pages/admin/user/index.html#/password"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Change password</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/user/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Users</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/group/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Groups</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/role/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Roles</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/companysetup/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Company Setup</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/user/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Change password</b> </a> </li>
 	</ul>
 
 <!--Admin and security setup--->
    <li> <a href="javascript:void(0);"> <i class="fa fa-edit"></i>ADMIN SETUP <span class="plus"><i class="fa fa-plus"></i></span></a>
 	<ul>
-	<li> <a href="pages/admin/company-setup/index.html#/companyAdmin"><span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Company Setup</b> </a> </li>
-	<li> <a href="pages/admin/country/index.html#/admin"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Country</b> </a> </li>
-	<li> <a href="pages/admin/region/index.html#/admin"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Regions</b> </a> </li>
-	<li> <a href="pages/admin/district/index.html#/admin"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>District</b> </a> </li>
-	<li> <a href="pages/admin/role/index.html#/admin"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Roles</b> </a> </li>
-	<li> <a href="pages/admin/zone/index.html#/admin"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Zones</b> </a> </li>
-	<li> <a href="pages/admin/usagegroup/index.html#/admin"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Usage Group</b> </a> </li>
-	<li> <a href="pages/admin/usergroup/index.html#/admin"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>User Group</b> </a> </li>
-	<li> <a href="pages/admin/user/index.html#/userAdmin"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Users</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/country/index"><span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Country</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/region/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Region</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/district/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>District</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/district/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Zone</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/district/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Hackers</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/district/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Zones</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/district/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Usage Group</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/district/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>User Group</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/district/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Users</b> </a> </li>
 	</ul>
 	 </li>
 <!--Core banking Setup--->
