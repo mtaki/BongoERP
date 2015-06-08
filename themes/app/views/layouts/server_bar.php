@@ -1,11 +1,9 @@
 <?php 
 use yii\helpers\Url;
-echo Url::base();
-echo Url::to(['post/index']);
+//echo Url::base();
+//echo Url::to(['post/index']);
 ?>
-<div class="left_nav">
 
-      <!--\\\\\\\left_nav start \\\\\\-->
       <div class="search_bar"> <i class="fa fa-search"></i>
         <input name="" type="text" class="search" placeholder="Search Dashboard..." />
       </div>
@@ -25,23 +23,25 @@ echo Url::to(['post/index']);
 
 <!--System setup--->
 
-   <li> <a href="javascript:void(0);"> <i class="fa fa-edit"></i>SYSTEM SETUP
+   <li> <a href="javascript:void(0);"> <i class="fa fa-edit"></i> ADMIN SETUP 
 	<span class="plus"><i class="fa fa-plus"></i></span></a>
 	<ul>
-	<li> <a href="<?php echo Url::base();?>/setting/user/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Users</b> </a> </li>
-	<li> <a href="<?php echo Url::base();?>/setting/group/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Groups</b> </a> </li>
-	<li> <a href="<?php echo Url::base();?>/setting/role/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Roles</b> </a> </li>
-	<li> <a href="<?php echo Url::base();?>/setting/companysetup/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Company Setup</b> </a> </li>
-	<li> <a href="<?php echo Url::base();?>/setting/user/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Change password</b> </a> </li>
-	</ul>
-
-<!--Admin and security setup--->
-   <li> <a href="javascript:void(0);"> <i class="fa fa-edit"></i>ADMIN SETUP <span class="plus"><i class="fa fa-plus"></i></span></a>
-	<ul>
+	<li> <a href="<?php echo Url::base();?>/setting/companysetup/index"><span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Company Setup</b> </a> </li>
 	<li> <a href="<?php echo Url::base();?>/setting/country/index"><span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Country</b> </a> </li>
 	<li> <a href="<?php echo Url::base();?>/setting/region/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Region</b> </a> </li>
 	<li> <a href="<?php echo Url::base();?>/setting/district/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>District</b> </a> </li>
-	<li> <a href="<?php echo Url::base();?>/setting/district/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Zone</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/zone/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Zone</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/user/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Users</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/usergroup/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Users Group</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/group/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Groups</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/role/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Roles</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/grouprole/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Group Roles</b> </a> </li>
+</ul>
+
+<!--Admin and security setup--->
+   <li> <a href="javascript:void(0);"> <i class="fa fa-edit"></i>SYSTEM SETUP <span class="plus"><i class="fa fa-plus"></i></span></a>
+	<ul>
+	
 	<li> <a href="<?php echo Url::base();?>/setting/district/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Hackers</b> </a> </li>
 	<li> <a href="<?php echo Url::base();?>/setting/district/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Zones</b> </a> </li>
 	<li> <a href="<?php echo Url::base();?>/setting/district/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Usage Group</b> </a> </li>
@@ -141,5 +141,4 @@ echo Url::to(['post/index']);
           </li>
         </ul>
       </div>
-    </div>
-    <!--\\\\\\\left_nav end \\\\\\-->
+   

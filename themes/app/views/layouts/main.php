@@ -78,18 +78,30 @@ use yii\helpers\Url;
 <div class="wrapper">
   <!--\\\\\\\ wrapper Start \\\\\\-->
 
-  
+  <!-----header part--------->
   <?php include('header.html');?>
+  
+  
   
   <div class="inner">
     <!--\\\\\\\ inner start \\\\\\-->
+	<div class="left_nav">
+      <!--\\\\\\\left_nav start \\\\\\-->
 	<?php include('server_bar.php');?>
-	<div > <?= $content ?></div>
-    
+	   </div>
+    <!--\\\\\\\left_nav end \\\\\\-->
+ <?= $content ?>
   </div>
   <!--\\\\\\\ inner end\\\\\\-->
 </div>
 <!--\\\\\\\ wrapper end\\\\\\-->
+
+
+
+
+
+
+
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">

@@ -43,7 +43,7 @@ class CompanySetup extends \yii\db\ActiveRecord
             [['Parameter_ID', 'CompanyName', 'Company_abreviation', 'PostalAddress', 'Residence', 'PhoneAndFax', 'EmailAndWebsite', 'CompanyLogo', 'ReportFooter'], 'required'],
             [['current_value_per_share'], 'number'],
             [['monthly_rate_for_Basic_method'], 'integer'],
-            [['Parameter_ID', 'chairman', 'secretary', 'treasurer'], 'string', 'max' => 20],
+            [['chairman', 'secretary', 'treasurer'], 'string', 'max' => 20],
             [['CompanyName', 'CompanyLogo'], 'string', 'max' => 50],
             [['Company_abreviation'], 'string', 'max' => 30],
             [['PostalAddress', 'Residence', 'PhoneAndFax', 'ReportFooter'], 'string', 'max' => 60],

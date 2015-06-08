@@ -32,7 +32,7 @@ use yii\widgets\ActiveForm;
             <div class="header">
               <div class="actions"> <a class="minimize" href="#"><i class="fa fa-chevron-down"></i></a>
 		<a class="close-down" href="#"><i class="fa fa-times"></i></a> </div>
-              <h3 class="content-header">Create company-setup</h3>
+              <h3 class="content-header">Create company setup</h3>
             </div>
             <div class="porlets-content">
            
@@ -40,22 +40,21 @@ use yii\widgets\ActiveForm;
 
 <?php $form = ActiveForm::begin(["class"=>"form-horizontal row-border"]); ?>
 
-			 <div class="form-group">
-		   <label class="col-sm-2 control-label">Parameter ID</label>
-           <div class="col-sm-4">
-			<?= $form->field($model,'Parameter_ID')->textInput(['maxlength' => true])->label('') ?>			</div>
-		</div><!--/form-group-->
-				
-			 <div class="form-group">
+		
+		 <fieldset class="well the-fieldset">
+        <legend class="the-legend">Your legend</legend>
+        <div class="form-group">
 		   <label class="col-sm-2 control-label">CompanyName</label>
            <div class="col-sm-4">
-			<?= $form->field($model,'CompanyName')->textInput(['maxlength' => true])->label('') ?>			</div>
+			<?= $form->field($model,'CompanyName')->textInput(['maxlength' => true])->label('') ?>			
+			</div>
 		</div><!--/form-group-->
 				
-			 <div class="form-group">
+		<div class="form-group">
 		   <label class="col-sm-2 control-label">Company abreviation</label>
            <div class="col-sm-4">
-			<?= $form->field($model,'Company_abreviation')->textInput(['maxlength' => true])->label('') ?>			</div>
+			<?= $form->field($model,'Company_abreviation')->textInput(['maxlength' => true])->label('') ?>
+			</div>
 		</div><!--/form-group-->
 				
 			 <div class="form-group">
@@ -70,6 +69,11 @@ use yii\widgets\ActiveForm;
 			<?= $form->field($model,'Residence')->textInput(['maxlength' => true])->label('') ?>			</div>
 		</div><!--/form-group-->
 				
+    </fieldset>		
+	
+	
+		 <fieldset class="well the-fieldset">
+        <legend class="the-legend">Your legend</legend>	
 			 <div class="form-group">
 		   <label class="col-sm-2 control-label">PhoneAndFax</label>
            <div class="col-sm-4">
@@ -117,26 +121,28 @@ use yii\widgets\ActiveForm;
            <div class="col-sm-4">
 			<?= $form->field($model,'monthly_rate_for_Basic_method')->textInput(['maxlength' => true])->label('') ?>			</div>
 		</div><!--/form-group-->
-				
-			 <div class="form-group">
+	<div class="clearfix"></div>			
+	<div class="form-group">
 		   <label class="col-sm-2 control-label">Chairman</label>
            <div class="col-sm-4">
 			<?= $form->field($model,'chairman')->textInput(['maxlength' => true])->label('') ?>			</div>
 		</div><!--/form-group-->
 				
-			 <div class="form-group">
+		<div class="form-group">
 		   <label class="col-sm-2 control-label">Secretary</label>
            <div class="col-sm-4">
 			<?= $form->field($model,'secretary')->textInput(['maxlength' => true])->label('') ?>			</div>
 		</div><!--/form-group-->
 				
-			 <div class="form-group">
+		<div class="form-group">
 		   <label class="col-sm-2 control-label">Treasurer</label>
            <div class="col-sm-4">
 			<?= $form->field($model,'treasurer')->textInput(['maxlength' => true])->label('') ?>			</div>
 		</div><!--/form-group-->
 				
-				
+	 </fieldset>	
+	<div class="clearfix"></div>
+		
 	  <div class="bottom">
 		 <?= Html::submitButton($model->isNewRecord ? Yii::t('app', 'Create') : Yii::t('app', 'Update'), ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
           <button type="button" class="btn btn-default">Cancel</button>

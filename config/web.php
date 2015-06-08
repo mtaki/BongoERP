@@ -11,6 +11,22 @@ $config = [
             'class' => 'app\modules\setting\Setting',
            
         ],
+		 'crm' => [
+
+            'class' => 'app\modules\crm\Crm',
+
+        ],
+		 'coreBanking' => [
+
+            'class' => 'app\modules\coreBanking\CoreBanking',
+
+        ],
+		'gl' => [
+
+            'class' => 'app\modules\generalLedger\GeneralLeger',
+
+        ],
+
     ],
     'components' => [
 	'view' => [
