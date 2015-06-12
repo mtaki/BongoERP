@@ -30,7 +30,7 @@ use yii\helpers\Url;
 	<li> <a href="<?php echo Url::base();?>/setting/country/index"><span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Country</b> </a> </li>
 	<li> <a href="<?php echo Url::base();?>/setting/region/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Region</b> </a> </li>
 	<li> <a href="<?php echo Url::base();?>/setting/district/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>District</b> </a> </li>
-	<li> <a href="<?php echo Url::base();?>/setting/zone/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Zone</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/adminzone/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Zone</b> </a> </li>
 	<li> <a href="<?php echo Url::base();?>/setting/user/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Users</b> </a> </li>
 	<li> <a href="<?php echo Url::base();?>/setting/usergroup/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Users Group</b> </a> </li>
 	<li> <a href="<?php echo Url::base();?>/setting/group/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Groups</b> </a> </li>
@@ -52,7 +52,10 @@ use yii\helpers\Url;
 <!--Core banking Setup--->
  	<li> <a href="javascript:void(0);"> <i class="fa fa-edit"></i>CORE BANKING <span class="plus"><i class="fa fa-plus"></i></span></a>
 	<ul>
-	<li> <a href="pages/admin/user/index.html#/admin"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Users</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/accounttype/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Product Type</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/cbbranch/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Branch</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/cbcurrence/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Currency</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/loantype/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Currency</b> </a> </li>
 	<li> <a href="pages/admin/user/index.html#/create"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Create user</b> </a> </li>
 	<li> <a href="pages/admin/user/index.html#/group"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Group</b> </a> </li>
 	<li> <a href="pages/admin/user/index.html#/role"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Roles</b> </a> </li>

@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel app\modules\setting\Models\RegionSearch */
+/* @var $searchModel app\modules\setting\models\RegionSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Yii::t('app', 'Regions');
@@ -15,8 +15,8 @@ $this->params['breadcrumbs'][] = $this->title;
       <!--\\\\\\\ contentpanel start\\\\\\-->
       <div class="pull-left breadcrumb_admin clear_both">
         <div class="pull-left page_title theme_color">
-          <h1>Form</h1>
-          <h2 class="">Subtitle goes here...</h2>
+          <h1>Setting</h1>
+          <h2 class="">region</h2>
         </div>
         <div class="pull-right">
           <ol class="breadcrumb">
@@ -28,17 +28,17 @@ $this->params['breadcrumbs'][] = $this->title;
       </div>
       <div class="container clear_both padding_fix">
         <!--\\\\\\\ container  start \\\\\\-->
-        
-      
       <div class="row">
         <div class="col-md-12">
           <div class="block-web">
             <div class="header">
-              <div class="actions"> <a class="minimize" href="#"><i class="fa fa-chevron-down"></i></a>
-		<a class="close-down" href="#"><i class="fa fa-times"></i></a> </div>
-              <h3 class="content-header">Create region</h3>
+              <div class="actions"> 
+				<a class="minimize" href="#"><i class="fa fa-chevron-down"></i></a>
+				<a class="close-down" href="#"><i class="fa fa-times"></i></a> 
+			   </div>
+              <h3 class="content-header">View </h3>
             </div>
-            <div class="porlets-content"
+            <div class="porlets-content">
 <div class="region-index">
 
     <h1><?= Html::encode($this->title) ?></h1>

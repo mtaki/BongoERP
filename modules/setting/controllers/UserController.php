@@ -4,6 +4,7 @@ namespace app\modules\setting\controllers;
 
 use Yii;
 use app\modules\setting\Models\User;
+use app\modules\setting\Models\UserGroup;
 use app\modules\setting\Models\UserSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
@@ -61,12 +62,12 @@ class UserController extends Controller
     public function actionCreate()
     {
         $model = new User();
-
+        $userGroup = new UserGroup();
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('create', [
-                'model' => $model,
+                'model' => $model,'userGroup'=>$userGroup
             ]);
         }
     }

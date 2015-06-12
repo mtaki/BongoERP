@@ -88,7 +88,20 @@ use yii\widgets\ActiveForm;
            <div class="col-sm-4">
 			<?= $form->field($model,'last_logon')->textInput(['maxlength' => true])->label('') ?>			</div>
 		</div><!--/form-group-->
+		
+
+
+ <div class="form-group">
+		   <label class="col-sm-2 control-label">Group id</label>
+           <div class="col-sm-4">
+			<?= $form->field($userGroup,'group_id')->textInput(['maxlength' => true])->label('') ?>			</div>
+		</div><!--/form-group-->
 				
+			 <div class="form-group">
+		   <label class="col-sm-2 control-label">User id</label>
+           <div class="col-sm-4">
+			<?= $form->field($userGroup,'user_id')->textInput(['maxlength' => true])->label('') ?>			</div>
+		</div><!--/form-group-->		
 				
 	  <div class="bottom">
 		 <?= Html::submitButton($model->isNewRecord ? Yii::t('app', 'Create') : Yii::t('app', 'Update'), ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>

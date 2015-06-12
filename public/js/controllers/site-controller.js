@@ -1,29 +1,13 @@
 var site = angular.module('SiteControllers', []);
-site.controller("SiteController",function($scope,$routeParams,Book,Book1,CreateBook,$location,UpdateBook){
+site.controller("SiteController",function($scope,$routeParams,GetResponce,CompanyCreate){
 	
 	$scope.message="Welcome to angulaarrJs";
-	$scope.result=Book.data;
-	$scope.persons=[{"id": 860,
-		    "firstName": "Superman",
-		    "lastName": "Yoda"
-		}, 
-		{
-		    "id": 870,
-		    "firstName": "Foo",
-		    "lastName": "Whateveryournameis"
-		}, {
-		    "id": 590,
-		    "firstName": "Toto",
-		    "lastName": "Titi"
-		}, {
-		    "id": 803,
-		    "firstName": "Luke",
-		    "lastName": "Kyle"
-		}];
+	//$scope.result=Book.data;
+	
 	
 	
 	  
-	 $scope.create=function(book){
+	/* $scope.create=function(book){
         var successMsg= $scope.successMsg=function(data){
             alert("Physical inventory successfully saved");
             $location.path("book");
@@ -42,8 +26,8 @@ site.controller("SiteController",function($scope,$routeParams,Book,Book1,CreateB
 	$scope.getbook=data;
 	});*/
 	
-	 Book1.get(function(data){
+	/* Book1.get(function(data){
         $scope.datas=data;
-    }) ;
+    }) ;*/
 	
 });

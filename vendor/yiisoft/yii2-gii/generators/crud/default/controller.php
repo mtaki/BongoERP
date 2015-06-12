@@ -2,6 +2,12 @@
 /**
  * This is the template for generating a CRUD controller class file.
  */
+ /*+++++++++++++++++++ 
+Designed by: dominic Lawrence Mtaki
+Email::chottomtaki@gmail.com
+skype id:m_mtaki
+Phone:+255-713123897
+******************************/
 
 use yii\db\ActiveRecordInterface;
 use yii\helpers\StringHelper;

@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model app\modules\setting\Models\Region */
+/* @var $model app\modules\setting\models\Region */
 
 $this->title = $model->Region_Id;
 $this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Regions'), 'url' => ['index']];

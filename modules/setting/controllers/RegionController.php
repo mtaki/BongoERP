@@ -3,8 +3,8 @@
 namespace app\modules\setting\controllers;
 
 use Yii;
-use app\modules\setting\Models\Region;
-use app\modules\setting\Models\RegionSearch;
+use app\modules\setting\models\Region;
+use app\modules\setting\models\RegionSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
