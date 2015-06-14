@@ -1,14 +1,14 @@
 <?php
 
-namespace app\modules\setting\Models;
+namespace app\modules\setting\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\modules\setting\Models\AccountPostingType;
+use app\modules\setting\models\AccountPostingType;
 
 /**
- * AccountPostingTypeSearch represents the model behind the search form about `app\modules\setting\Models\AccountPostingType`.
+ * AccountPostingTypeSearch represents the model behind the search form about `app\modules\setting\models\AccountPostingType`.
  */
 class AccountPostingTypeSearch extends AccountPostingType
 {

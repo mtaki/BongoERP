@@ -1,14 +1,14 @@
 <?php
 
-namespace app\modules\setting\Models;
+namespace app\modules\setting\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\modules\setting\Models\TransactionType;
+use app\modules\setting\models\TransactionType;
 
 /**
- * TransactionTypeSearch represents the model behind the search form about `app\modules\setting\Models\TransactionType`.
+ * TransactionTypeSearch represents the model behind the search form about `app\modules\setting\models\TransactionType`.
  */
 class TransactionTypeSearch extends TransactionType
 {
@@ -18,7 +18,8 @@ class TransactionTypeSearch extends TransactionType
     public function rules()
     {
         return [
-            [['trans_code', 'transaction_description', 'transaction_narrative'], 'safe'],
+            [['tran_type_id'], 'integer'],
+            [['trans_name', 'trans_type_description'], 'safe'],
         ];
     }
 
@@ -54,9 +55,12 @@ class TransactionTypeSearch extends TransactionType
             return $dataProvider;
         }
 
-        $query->andFilterWhere(['like', 'trans_code', $this->trans_code])
-            ->andFilterWhere(['like', 'transaction_description', $this->transaction_description])
-            ->andFilterWhere(['like', 'transaction_narrative', $this->transaction_narrative]);
+        $query->andFilterWhere([
+            'tran_type_id' => $this->tran_type_id,
+        ]);
+
+        $query->andFilterWhere(['like', 'trans_name', $this->trans_name])
+            ->andFilterWhere(['like', 'trans_type_description', $this->trans_type_description]);
 
         return $dataProvider;
     }

@@ -5,11 +5,11 @@ namespace app\modules\setting\models;
 use Yii;
 
 /**
- * This is the model class for table "cb_gl_transaction_types".
+ * This is the model class for table "gl_transaction_type".
  *
- * @property string $trans_code
- * @property string $transaction_description
- * @property string $transaction_narrative
+ * @property integer $tran_type_id
+ * @property string $trans_name
+ * @property string $trans_type_description
  */
 class TransactionType extends \yii\db\ActiveRecord
 {
@@ -18,7 +18,7 @@ class TransactionType extends \yii\db\ActiveRecord
      */
     public static function tableName()
     {
-        return 'cb_gl_transaction_types';
+        return 'gl_transaction_type';
     }
 
     /**
@@ -27,10 +27,9 @@ class TransactionType extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['trans_code', 'transaction_description', 'transaction_narrative'], 'required'],
-            [['trans_code'], 'string', 'max' => 3],
-            [['transaction_description'], 'string', 'max' => 20],
-            [['transaction_narrative'], 'string', 'max' => 10]
+            [['trans_name', 'trans_type_description'], 'required'],
+            [['trans_name'], 'string', 'max' => 100],
+            [['trans_type_description'], 'string', 'max' => 300]
         ];
     }
 
@@ -40,9 +39,9 @@ class TransactionType extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'trans_code' => Yii::t('app', 'Trans Code'),
-            'transaction_description' => Yii::t('app', 'Transaction Description'),
-            'transaction_narrative' => Yii::t('app', 'Transaction Narrative'),
+            'tran_type_id' => Yii::t('app', 'Tran Type ID'),
+            'trans_name' => Yii::t('app', 'Trans Name'),
+            'trans_type_description' => Yii::t('app', 'Trans Type Description'),
         ];
     }
 

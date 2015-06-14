@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model app\modules\setting\Models\LpoPurchaseTypeSearch */
+/* @var $model app\modules\setting\models\LpoPurchaseTypeSearch */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 

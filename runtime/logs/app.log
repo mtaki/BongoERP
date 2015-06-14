@@ -17500,3 +17500,410 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1434116576.092
     'REQUEST_TIME' => 1434116576
 ]
+2015-06-14 08:06:10 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "setting/usergroup".' in /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('setting/usergro...', Array)
+#1 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/yii/BongoERP/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/yii/BongoERP/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-06-14 08:06:09 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '56788'
+    'REDIRECT_URL' => '/yii/BongoERP/web/setting/usergroup'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/setting/usergroup'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434269169.787
+    'REQUEST_TIME' => 1434269169
+]
+2015-06-14 08:06:18 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\setting\Models\UserSearch' not found' in /var/www/html/yii/BongoERP/modules/setting/controllers/UserController.php:36
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-14 08:06:18 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/yii/BongoERP/web/setting/usergroup'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '56800'
+    'REDIRECT_URL' => '/yii/BongoERP/web/setting/user/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/setting/user/index'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434269178.531
+    'REQUEST_TIME' => 1434269178
+]
+2015-06-14 08:06:33 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Command.php(206): yii\db\Connection->getSlavePdo()
+#5 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Command.php(819): yii\db\Command->prepare(true)
+#6 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/mysql/Schema.php(198): yii\db\Command->queryAll()
+#8 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/mysql/Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Schema.php(146): yii\db\mysql\Schema->loadTableSchema('cb_admin_zone')
+#10 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/ActiveRecord.php(294): yii\db\Schema->getTableSchema('cb_admin_zone')
+#11 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/ActiveRecord.php(327): yii\db\ActiveRecord::getTableSchema()
+#12 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/BaseActiveRecord.php(421): yii\db\ActiveRecord->attributes()
+#13 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/BaseActiveRecord.php(240): yii\db\BaseActiveRecord->hasAttribute('zone_id')
+#14 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/validators/Validator.php(237): yii\db\BaseActiveRecord->__get('zone_id')
+#15 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Model.php(351): yii\validators\Validator->validateAttributes(Object(app\modules\setting\models\AdminZoneSearch), Array)
+#16 /var/www/html/yii/BongoERP/modules/setting/models/AdminZoneSearch.php(52): yii\base\Model->validate()
+#17 /var/www/html/yii/BongoERP/modules/setting/controllers/AdminzoneController.php(36): app\modules\setting\models\AdminZoneSearch->search(Array)
+#18 [internal function]: app\modules\setting\controllers\AdminzoneController->actionIndex()
+#19 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#20 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#21 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#22 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('setting/adminzo...', Array)
+#23 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#24 /var/www/html/yii/BongoERP/web/index.php(12): yii\base\Application->run()
+#25 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Command.php(206): yii\db\Connection->getSlavePdo()
+#3 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Command.php(819): yii\db\Command->prepare(true)
+#4 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/mysql/Schema.php(198): yii\db\Command->queryAll()
+#6 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/mysql/Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Schema.php(146): yii\db\mysql\Schema->loadTableSchema('cb_admin_zone')
+#8 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/ActiveRecord.php(294): yii\db\Schema->getTableSchema('cb_admin_zone')
+#9 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/ActiveRecord.php(327): yii\db\ActiveRecord::getTableSchema()
+#10 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/BaseActiveRecord.php(421): yii\db\ActiveRecord->attributes()
+#11 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/BaseActiveRecord.php(240): yii\db\BaseActiveRecord->hasAttribute('zone_id')
+#12 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/validators/Validator.php(237): yii\db\BaseActiveRecord->__get('zone_id')
+#13 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Model.php(351): yii\validators\Validator->validateAttributes(Object(app\modules\setting\models\AdminZoneSearch), Array)
+#14 /var/www/html/yii/BongoERP/modules/setting/models/AdminZoneSearch.php(52): yii\base\Model->validate()
+#15 /var/www/html/yii/BongoERP/modules/setting/controllers/AdminzoneController.php(36): app\modules\setting\models\AdminZoneSearch->search(Array)
+#16 [internal function]: app\modules\setting\controllers\AdminzoneController->actionIndex()
+#17 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#18 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#19 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#20 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('setting/adminzo...', Array)
+#21 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /var/www/html/yii/BongoERP/web/index.php(12): yii\base\Application->run()
+#23 {main}
+Additional Information:
+
+2015-06-14 08:06:33 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/yii/BongoERP/web/setting/usergroup'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '56805'
+    'REDIRECT_URL' => '/yii/BongoERP/web/setting/adminzone/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/setting/adminzone/index'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434269193.32
+    'REQUEST_TIME' => 1434269193
+]
+2015-06-14 08:07:09 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000] [1049] Unknown database 'bongoerp'' in /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', '1234', NULL)
+#1 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Command.php(206): yii\db\Connection->getSlavePdo()
+#5 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Command.php(819): yii\db\Command->prepare(true)
+#6 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/mysql/Schema.php(198): yii\db\Command->queryAll()
+#8 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/mysql/Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Schema.php(146): yii\db\mysql\Schema->loadTableSchema('cb_admin_zone')
+#10 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/ActiveRecord.php(294): yii\db\Schema->getTableSchema('cb_admin_zone')
+#11 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/ActiveRecord.php(327): yii\db\ActiveRecord::getTableSchema()
+#12 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/BaseActiveRecord.php(421): yii\db\ActiveRecord->attributes()
+#13 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/BaseActiveRecord.php(240): yii\db\BaseActiveRecord->hasAttribute('zone_id')
+#14 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/validators/Validator.php(237): yii\db\BaseActiveRecord->__get('zone_id')
+#15 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Model.php(351): yii\validators\Validator->validateAttributes(Object(app\modules\setting\models\AdminZoneSearch), Array)
+#16 /var/www/html/yii/BongoERP/modules/setting/models/AdminZoneSearch.php(52): yii\base\Model->validate()
+#17 /var/www/html/yii/BongoERP/modules/setting/controllers/AdminzoneController.php(36): app\modules\setting\models\AdminZoneSearch->search(Array)
+#18 [internal function]: app\modules\setting\controllers\AdminzoneController->actionIndex()
+#19 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#20 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#21 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#22 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('setting/adminzo...', Array)
+#23 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#24 /var/www/html/yii/BongoERP/web/index.php(12): yii\base\Application->run()
+#25 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000] [1049] Unknown database 'bongoerp'' in /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Command.php(206): yii\db\Connection->getSlavePdo()
+#3 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Command.php(819): yii\db\Command->prepare(true)
+#4 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/mysql/Schema.php(198): yii\db\Command->queryAll()
+#6 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/mysql/Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Schema.php(146): yii\db\mysql\Schema->loadTableSchema('cb_admin_zone')
+#8 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/ActiveRecord.php(294): yii\db\Schema->getTableSchema('cb_admin_zone')
+#9 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/ActiveRecord.php(327): yii\db\ActiveRecord::getTableSchema()
+#10 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/BaseActiveRecord.php(421): yii\db\ActiveRecord->attributes()
+#11 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/BaseActiveRecord.php(240): yii\db\BaseActiveRecord->hasAttribute('zone_id')
+#12 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/validators/Validator.php(237): yii\db\BaseActiveRecord->__get('zone_id')
+#13 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Model.php(351): yii\validators\Validator->validateAttributes(Object(app\modules\setting\models\AdminZoneSearch), Array)
+#14 /var/www/html/yii/BongoERP/modules/setting/models/AdminZoneSearch.php(52): yii\base\Model->validate()
+#15 /var/www/html/yii/BongoERP/modules/setting/controllers/AdminzoneController.php(36): app\modules\setting\models\AdminZoneSearch->search(Array)
+#16 [internal function]: app\modules\setting\controllers\AdminzoneController->actionIndex()
+#17 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#18 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#19 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#20 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('setting/adminzo...', Array)
+#21 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /var/www/html/yii/BongoERP/web/index.php(12): yii\base\Application->run()
+#23 {main}
+Additional Information:
+
+2015-06-14 08:07:09 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/yii/BongoERP/web/setting/usergroup'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '56807'
+    'REDIRECT_URL' => '/yii/BongoERP/web/setting/adminzone/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/setting/adminzone/index'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434269229.161
+    'REQUEST_TIME' => 1434269229
+]
+2015-06-14 08:07:23 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000] [1049] Unknown database 'uchumiERP'' in /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php:579
+Stack trace:
+#0 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', '1234', NULL)
+#1 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#3 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Command.php(206): yii\db\Connection->getSlavePdo()
+#5 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Command.php(819): yii\db\Command->prepare(true)
+#6 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/mysql/Schema.php(198): yii\db\Command->queryAll()
+#8 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/mysql/Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Schema.php(146): yii\db\mysql\Schema->loadTableSchema('cb_admin_zone')
+#10 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/ActiveRecord.php(294): yii\db\Schema->getTableSchema('cb_admin_zone')
+#11 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/ActiveRecord.php(327): yii\db\ActiveRecord::getTableSchema()
+#12 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/BaseActiveRecord.php(421): yii\db\ActiveRecord->attributes()
+#13 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/BaseActiveRecord.php(240): yii\db\BaseActiveRecord->hasAttribute('zone_id')
+#14 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/validators/Validator.php(237): yii\db\BaseActiveRecord->__get('zone_id')
+#15 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Model.php(351): yii\validators\Validator->validateAttributes(Object(app\modules\setting\models\AdminZoneSearch), Array)
+#16 /var/www/html/yii/BongoERP/modules/setting/models/AdminZoneSearch.php(52): yii\base\Model->validate()
+#17 /var/www/html/yii/BongoERP/modules/setting/controllers/AdminzoneController.php(36): app\modules\setting\models\AdminZoneSearch->search(Array)
+#18 [internal function]: app\modules\setting\controllers\AdminzoneController->actionIndex()
+#19 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#20 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#21 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#22 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('setting/adminzo...', Array)
+#23 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#24 /var/www/html/yii/BongoERP/web/index.php(12): yii\base\Application->run()
+#25 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000] [1049] Unknown database 'uchumiERP'' in /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php:534
+Stack trace:
+#0 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php(836): yii\db\Connection->open()
+#1 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Command.php(206): yii\db\Connection->getSlavePdo()
+#3 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Command.php(819): yii\db\Command->prepare(true)
+#4 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Command.php(349): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/mysql/Schema.php(198): yii\db\Command->queryAll()
+#6 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/mysql/Schema.php(97): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/Schema.php(146): yii\db\mysql\Schema->loadTableSchema('cb_admin_zone')
+#8 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/ActiveRecord.php(294): yii\db\Schema->getTableSchema('cb_admin_zone')
+#9 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/ActiveRecord.php(327): yii\db\ActiveRecord::getTableSchema()
+#10 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/BaseActiveRecord.php(421): yii\db\ActiveRecord->attributes()
+#11 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/db/BaseActiveRecord.php(240): yii\db\BaseActiveRecord->hasAttribute('zone_id')
+#12 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/validators/Validator.php(237): yii\db\BaseActiveRecord->__get('zone_id')
+#13 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Model.php(351): yii\validators\Validator->validateAttributes(Object(app\modules\setting\models\AdminZoneSearch), Array)
+#14 /var/www/html/yii/BongoERP/modules/setting/models/AdminZoneSearch.php(52): yii\base\Model->validate()
+#15 /var/www/html/yii/BongoERP/modules/setting/controllers/AdminzoneController.php(36): app\modules\setting\models\AdminZoneSearch->search(Array)
+#16 [internal function]: app\modules\setting\controllers\AdminzoneController->actionIndex()
+#17 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#18 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#19 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#20 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('setting/adminzo...', Array)
+#21 /var/www/html/yii/BongoERP/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /var/www/html/yii/BongoERP/web/index.php(12): yii\base\Application->run()
+#23 {main}
+Additional Information:
+
+2015-06-14 08:07:23 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/yii/BongoERP/web/setting/usergroup'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '56811'
+    'REDIRECT_URL' => '/yii/BongoERP/web/setting/adminzone/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/setting/adminzone/index'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434269243.789
+    'REQUEST_TIME' => 1434269243
+]
+2015-06-14 08:59:40 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\setting\Models\AccountCoaGrandParentSubCatSearch' not found' in /var/www/html/yii/BongoERP/modules/setting/controllers/AccountcoagrandparentsubcatController.php:35
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-14 08:59:40 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'ced1a83365e9794135ed2d540e7782112e31b0bc1a538d0e2260f824cbe54c6aa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Bj-Z-XKyJ8bvoafaF-EBBtaRdksoaDMa\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:38.0) Gecko/20100101 Firefox/38.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/yii/BongoERP/web/setting/accountcoagrandparent/create'
+    'HTTP_COOKIE' => '_csrf=ced1a83365e9794135ed2d540e7782112e31b0bc1a538d0e2260f824cbe54c6aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Bj-Z-XKyJ8bvoafaF-EBBtaRdksoaDMa%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/yii/BongoERP/web/index.php'
+    'REMOTE_PORT' => '57279'
+    'REDIRECT_URL' => '/yii/BongoERP/web/setting/accountcoagrandparentsubcat/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii/BongoERP/web/setting/accountcoagrandparentsubcat/index'
+    'SCRIPT_NAME' => '/yii/BongoERP/web/index.php'
+    'PHP_SELF' => '/yii/BongoERP/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1434272380.627
+    'REQUEST_TIME' => 1434272380
+]

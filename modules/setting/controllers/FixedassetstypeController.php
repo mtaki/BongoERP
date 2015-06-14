@@ -3,8 +3,8 @@
 namespace app\modules\setting\controllers;
 
 use Yii;
-use app\modules\setting\Models\FixedAssetsType;
-use app\modules\setting\Models\FixedAssetsTypeSearch;
+use app\modules\setting\models\FixedAssetsType;
+use app\modules\setting\models\FixedAssetsTypeSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

@@ -3,8 +3,8 @@
 namespace app\modules\setting\controllers;
 
 use Yii;
-use app\modules\setting\Models\AccountPostingType;
-use app\modules\setting\Models\AccountPostingTypeSearch;
+use app\modules\setting\models\AccountPostingType;
+use app\modules\setting\models\AccountPostingTypeSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

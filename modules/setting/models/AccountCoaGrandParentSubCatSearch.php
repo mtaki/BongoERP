@@ -1,14 +1,14 @@
 <?php
 
-namespace app\modules\setting\Models;
+namespace app\modules\setting\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\modules\setting\Models\AccountCoaGrandParentSubCat;
+use app\modules\setting\models\AccountCoaGrandParentSubCat;
 
 /**
- * AccountCoaGrandParentSubCatSearch represents the model behind the search form about `app\modules\setting\Models\AccountCoaGrandParentSubCat`.
+ * AccountCoaGrandParentSubCatSearch represents the model behind the search form about `app\modules\setting\models\AccountCoaGrandParentSubCat`.
  */
 class AccountCoaGrandParentSubCatSearch extends AccountCoaGrandParentSubCat
 {

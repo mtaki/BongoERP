@@ -3,8 +3,8 @@
 namespace app\modules\setting\controllers;
 
 use Yii;
-use app\modules\setting\Models\AccountCoaGrandParent;
-use app\modules\setting\Models\AccountCoaGrandParentSearch;
+use app\modules\setting\models\AccountCoaGrandParent;
+use app\modules\setting\models\AccountCoaGrandParentSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

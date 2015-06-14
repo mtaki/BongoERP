@@ -3,8 +3,8 @@
 namespace app\modules\setting\controllers;
 
 use Yii;
-use app\modules\setting\Models\ApLpo;
-use app\modules\setting\Models\ApLpoSearch;
+use app\modules\setting\models\ApLpo;
+use app\modules\setting\models\ApLpoSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

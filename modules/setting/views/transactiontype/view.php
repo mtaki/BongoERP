@@ -4,9 +4,9 @@ use yii\helpers\Html;
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model app\modules\setting\Models\TransactionType */
+/* @var $model app\modules\setting\models\TransactionType */
 
-$this->title = $model->trans_code;
+$this->title = $model->tran_type_id;
 $this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Transaction Types'), 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
@@ -14,8 +14,8 @@ $this->params['breadcrumbs'][] = $this->title;
       <!--\\\\\\\ contentpanel start\\\\\\-->
       <div class="pull-left breadcrumb_admin clear_both">
         <div class="pull-left page_title theme_color">
-          <h1>Form</h1>
-          <h2 class="">Subtitle goes here...</h2>
+          <h1>Setting</h1>
+          <h2 class="">transaction-type</h2>
         </div>
         <div class="pull-right">
           <ol class="breadcrumb">
@@ -35,16 +35,16 @@ $this->params['breadcrumbs'][] = $this->title;
             <div class="header">
               <div class="actions"> <a class="minimize" href="#"><i class="fa fa-chevron-down"></i></a>
 		<a class="close-down" href="#"><i class="fa fa-times"></i></a> </div>
-              <h3 class="content-header">Create users</h3>
+              <h3 class="content-header"><?= Html::encode($this->title) ?></h3>
             </div>
             <div class="porlets-content"
 <div class="transaction-type-view">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+    
 
     <p>
-        <?= Html::a(Yii::t('app', 'Update'), ['update', 'id' => $model->trans_code], ['class' => 'btn btn-primary']) ?>
-        <?= Html::a(Yii::t('app', 'Delete'), ['delete', 'id' => $model->trans_code], [
+        <?= Html::a(Yii::t('app', 'Update'), ['update', 'id' => $model->tran_type_id], ['class' => 'btn btn-primary']) ?>
+        <?= Html::a(Yii::t('app', 'Delete'), ['delete', 'id' => $model->tran_type_id], [
             'class' => 'btn btn-danger',
             'data' => [
                 'confirm' => Yii::t('app', 'Are you sure you want to delete this item?'),
@@ -56,9 +56,9 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= DetailView::widget([
         'model' => $model,
         'attributes' => [
-            'trans_code',
-            'transaction_description',
-            'transaction_narrative',
+            'tran_type_id',
+            'trans_name',
+            'trans_type_description',
         ],
     ]) ?>
 

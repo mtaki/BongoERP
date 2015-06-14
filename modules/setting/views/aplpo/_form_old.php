@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model app\modules\setting\Models\ApLpo */
+/* @var $model app\modules\setting\models\ApLpo */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 <div class="contentpanel">

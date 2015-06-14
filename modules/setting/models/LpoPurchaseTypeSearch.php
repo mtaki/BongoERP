@@ -1,14 +1,14 @@
 <?php
 
-namespace app\modules\setting\Models;
+namespace app\modules\setting\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\modules\setting\Models\LpoPurchaseType;
+use app\modules\setting\models\LpoPurchaseType;
 
 /**
- * LpoPurchaseTypeSearch represents the model behind the search form about `app\modules\setting\Models\LpoPurchaseType`.
+ * LpoPurchaseTypeSearch represents the model behind the search form about `app\modules\setting\models\LpoPurchaseType`.
  */
 class LpoPurchaseTypeSearch extends LpoPurchaseType
 {

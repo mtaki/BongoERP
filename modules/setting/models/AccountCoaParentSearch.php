@@ -1,14 +1,14 @@
 <?php
 
-namespace app\modules\setting\Models;
+namespace app\modules\setting\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\modules\setting\Models\AccountCoaParent;
+use app\modules\setting\models\AccountCoaParent;
 
 /**
- * AccountCoaParentSearch represents the model behind the search form about `app\modules\setting\Models\AccountCoaParent`.
+ * AccountCoaParentSearch represents the model behind the search form about `app\modules\setting\models\AccountCoaParent`.
  */
 class AccountCoaParentSearch extends AccountCoaParent
 {

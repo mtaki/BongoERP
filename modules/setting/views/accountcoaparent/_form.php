@@ -4,68 +4,44 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model app\modules\setting\Models\AccountCoaParent */
+/* @var $model app\modules\setting\models\AccountCoaParent */
 /* @var $form yii\widgets\ActiveForm */
 ?>
-<div class="contentpanel">
-      <!--\\\\\\\ contentpanel start\\\\\\-->
-      <div class="pull-left breadcrumb_admin clear_both">
-        <div class="pull-left page_title theme_color">
-          <h1>Form</h1>
-          <h2 class="">Subtitle goes here...</h2>
-        </div>
-        <div class="pull-right">
-          <ol class="breadcrumb">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">FORMS</a></li>
-            <li class="active">Form</li>
-          </ol>
-        </div>
-      </div>
-      <div class="container clear_both padding_fix">
-        <!--\\\\\\\ container  start \\\\\\-->
-        
-      
-      <div class="row">
-        <div class="col-md-12">
-          <div class="block-web">
-            <div class="header">
-              <div class="actions"> <a class="minimize" href="#"><i class="fa fa-chevron-down"></i></a>
-		<a class="close-down" href="#"><i class="fa fa-times"></i></a> </div>
-              <h3 class="content-header">Create account-coa-parent</h3>
-            </div>
-            <div class="porlets-content">
-           
+
 
 
 <?php $form = ActiveForm::begin(["class"=>"form-horizontal row-border"]); ?>
 
-			
-			 <div class="form-group">
+			<div class="clear_both"></div>
+		  <div class="form-group">
 		   <label class="col-sm-2 control-label">Account parent code</label>
            <div class="col-sm-4">
-			<?= $form->field($model,'account_parent_code')->textInput(['maxlength' => true])->label('') ?>			</div>
+			<?= $form->field($model,'account_parent_code')->textInput(['maxlength' => true])->label('') ?>
+			</div>
 		</div><!--/form-group-->
-				
-			 <div class="form-group">
+				<div class="clear_both"></div>
+		  <div class="form-group">
 		   <label class="col-sm-2 control-label">Gl account coa grand parent id</label>
            <div class="col-sm-4">
-			<?= $form->field($model,'gl_account_coa_grand_parent_id')->textInput(['maxlength' => true])->label('') ?>			</div>
+			<?= $form->field($model,'gl_account_coa_grand_parent_id')->textInput(['maxlength' => true])->label('') ?>
+			</div>
 		</div><!--/form-group-->
-				
-			 <div class="form-group">
+				<div class="clear_both"></div>
+		  <div class="form-group">
 		   <label class="col-sm-2 control-label">Parent name</label>
            <div class="col-sm-4">
-			<?= $form->field($model,'parent_name')->textInput(['maxlength' => true])->label('') ?>			</div>
+			<?= $form->field($model,'parent_name')->textInput(['maxlength' => true])->label('') ?>
+			</div>
 		</div><!--/form-group-->
-				
-			 <div class="form-group">
+				<div class="clear_both"></div>
+		  <div class="form-group">
 		   <label class="col-sm-2 control-label">Remarks</label>
            <div class="col-sm-4">
-			<?= $form->field($model,'Remarks')->textInput(['maxlength' => true])->label('') ?>			</div>
+			<?= $form->field($model,'Remarks')->textInput(['maxlength' => true])->label('') ?>
+			</div>
 		</div><!--/form-group-->
-				
-				
+				<div class="clear_both"></div>
+				<div class="clear_both"></div>
 	  <div class="bottom">
 		 <?= Html::submitButton($model->isNewRecord ? Yii::t('app', 'Create') : Yii::t('app', 'Update'), ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
           <button type="button" class="btn btn-default">Cancel</button>
@@ -75,16 +51,3 @@ use yii\widgets\ActiveForm;
  <?php ActiveForm::end(); ?>
   
  
-            </div><!--/porlets-content-->
-          </div><!--/block-web--> 
-        </div><!--/col-md-6-->
-        
-
-</div>
-      </div>
-      
-  
-      </div>
-      <!--\\\\\\\ container  end \\\\\\-->
-    </div>
-    <!--\\\\\\\ content panel end \\\\\\-->

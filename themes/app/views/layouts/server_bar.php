@@ -54,8 +54,11 @@ use yii\helpers\Url;
 	<ul>
 	<li> <a href="<?php echo Url::base();?>/setting/accounttype/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Product Type</b> </a> </li>
 	<li> <a href="<?php echo Url::base();?>/setting/cbbranch/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Branch</b> </a> </li>
-	<li> <a href="<?php echo Url::base();?>/setting/cbcurrence/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Currency</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/cbcurrence/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Loan Type</b> </a> </li>
 	<li> <a href="<?php echo Url::base();?>/setting/loantype/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Currency</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/cbtransactiontype/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Transaction type</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/cbxrate/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Ex rate</b> </a> </li>
+	
 	<li> <a href="pages/admin/user/index.html#/create"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Create user</b> </a> </li>
 	<li> <a href="pages/admin/user/index.html#/group"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Group</b> </a> </li>
 	<li> <a href="pages/admin/user/index.html#/role"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Roles</b> </a> </li>
@@ -65,9 +68,17 @@ use yii\helpers\Url;
 <!--General Ledger (Accounting) setup--->
  	<li> <a href="javascript:void(0);"> <i class="fa fa-edit"></i>ACCOUNTING(GL) <span class="plus"><i class="fa fa-plus"></i></span></a>
 	<ul>
-	<li> <a href="pages/admin/user/index.html#/admin"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Users</b> </a> </li>
-	<li> <a href="pages/admin/user/index.html#/create"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Create user</b> </a> </li>
-	<li> <a href="pages/admin/user/index.html#/group"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Group</b> </a> </li>
+	
+	<li> <a href="<?php echo Url::base();?>/setting/accountcoagrandparent/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Account coa grandparent</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/accountcoaparent/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Account coa parent</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/accountcoagrandparentsubcat/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Account coa grandparentsubcat</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/accountpostingtype/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Account posting type</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/aplpo/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Ap LPO</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/lpopurchasetype/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>LPO purchase type</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/vendortype/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Vendor Type</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/transactiontype/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Transaction type</b> </a> </li>
+	<li> <a href="<?php echo Url::base();?>/setting/fixedassetstype/index"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Fixed Assets Type</b> </a> </li>
+	
 	<li> <a href="pages/admin/user/index.html#/role"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Roles</b> </a> </li>
 	<li> <a href="pages/admin/user/index.html#/password"> <span>&nbsp;</span> <i class="fa fa-circle"></i> <b>Change password</b> </a> </li>
 	</ul>

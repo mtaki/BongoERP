@@ -1,14 +1,14 @@
 <?php
 
-namespace app\modules\setting\Models;
+namespace app\modules\setting\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\modules\setting\Models\VendorType;
+use app\modules\setting\models\VendorType;
 
 /**
- * VendorTypeSearch represents the model behind the search form about `app\modules\setting\Models\VendorType`.
+ * VendorTypeSearch represents the model behind the search form about `app\modules\setting\models\VendorType`.
  */
 class VendorTypeSearch extends VendorType
 {
@@ -18,8 +18,8 @@ class VendorTypeSearch extends VendorType
     public function rules()
     {
         return [
-            [['id', 'vendor_sub_gl', 'vendor_type_idd'], 'integer'],
-            [['vendor_name', 'vendor_addres', 'vendor_industry', 'vendor_telefone', 'vendors_email', 'vendors_bank', 'vendors_account_no', 'vendors_other_terms'], 'safe'],
+            [['id'], 'integer'],
+            [['Vendor_type', 'vendor_description'], 'safe'],
         ];
     }
 
@@ -57,18 +57,10 @@ class VendorTypeSearch extends VendorType
 
         $query->andFilterWhere([
             'id' => $this->id,
-            'vendor_sub_gl' => $this->vendor_sub_gl,
-            'vendor_type_idd' => $this->vendor_type_idd,
         ]);
 
-        $query->andFilterWhere(['like', 'vendor_name', $this->vendor_name])
-            ->andFilterWhere(['like', 'vendor_addres', $this->vendor_addres])
-            ->andFilterWhere(['like', 'vendor_industry', $this->vendor_industry])
-            ->andFilterWhere(['like', 'vendor_telefone', $this->vendor_telefone])
-            ->andFilterWhere(['like', 'vendors_email', $this->vendors_email])
-            ->andFilterWhere(['like', 'vendors_bank', $this->vendors_bank])
-            ->andFilterWhere(['like', 'vendors_account_no', $this->vendors_account_no])
-            ->andFilterWhere(['like', 'vendors_other_terms', $this->vendors_other_terms]);
+        $query->andFilterWhere(['like', 'Vendor_type', $this->Vendor_type])
+            ->andFilterWhere(['like', 'vendor_description', $this->vendor_description]);
 
         return $dataProvider;
     }

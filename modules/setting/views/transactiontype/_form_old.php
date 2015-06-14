@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model app\modules\setting\Models\TransactionType */
+/* @var $model app\modules\setting\models\TransactionType */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 <div class="contentpanel">
@@ -39,23 +39,23 @@ use yii\widgets\ActiveForm;
 
 
 					<div class="form-group">
-                  	<label class="col-sm-3 control-label">Trans code</label>
+                  	<label class="col-sm-3 control-label">Tran type id</label>
                   	<div class="col-sm-9">
-					<input type="text" name="trans_code" class="form-control"></div>
+					<input type="text" name="tran_type_id" class="form-control"></div>
                 	</div><!--/form-group-->
 			
 
 			<div class="form-group">
-                  	<label class="col-sm-3 control-label">Transaction description</label>
+                  	<label class="col-sm-3 control-label">Trans name</label>
                   	<div class="col-sm-9">
-					<input type="text" name="transaction_description" class="form-control"></div>
+					<input type="text" name="trans_name" class="form-control"></div>
                 	</div><!--/form-group-->
 			
 
 			<div class="form-group">
-                  	<label class="col-sm-3 control-label">Transaction narrative</label>
+                  	<label class="col-sm-3 control-label">Trans type description</label>
                   	<div class="col-sm-9">
-					<input type="text" name="transaction_narrative" class="form-control"></div>
+					<input type="text" name="trans_type_description" class="form-control"></div>
                 	</div><!--/form-group-->
 			
 
@@ -80,29 +80,20 @@ use yii\widgets\ActiveForm;
         
  <?php $form = ActiveForm::begin(); ?>
 
-		<div class="form-group">
-		   <label class="col-sm-3 control-label">Trans code</label>
+					<div class="form-group">
+		   <label class="col-sm-3 control-label">Trans name</label>
            <div class="col-sm-9">
 		
-				<?= $form->field($model,'trans_code')->textInput(['maxlength' => true])->label('') ?>
+				<?= $form->field($model,'trans_name')->textInput(['maxlength' => true])->label('') ?>
 
 		
 				</div>
 		</div><!--/form-group-->
 								<div class="form-group">
-		   <label class="col-sm-3 control-label">Transaction description</label>
+		   <label class="col-sm-3 control-label">Trans type description</label>
            <div class="col-sm-9">
 		
-				<?= $form->field($model,'transaction_description')->textInput(['maxlength' => true])->label('') ?>
-
-		
-				</div>
-		</div><!--/form-group-->
-								<div class="form-group">
-		   <label class="col-sm-3 control-label">Transaction narrative</label>
-           <div class="col-sm-9">
-		
-				<?= $form->field($model,'transaction_narrative')->textInput(['maxlength' => true])->label('') ?>
+				<?= $form->field($model,'trans_type_description')->textInput(['maxlength' => true])->label('') ?>
 
 		
 				</div>

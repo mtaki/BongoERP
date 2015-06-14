@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model app\modules\setting\Models\TransactionTypeSearch */
+/* @var $model app\modules\setting\models\TransactionTypeSearch */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
@@ -15,11 +15,11 @@ use yii\widgets\ActiveForm;
         'method' => 'get',
     ]); ?>
 
-    <?= $form->field($model, 'trans_code') ?>
+    <?= $form->field($model, 'tran_type_id') ?>
 
-    <?= $form->field($model, 'transaction_description') ?>
+    <?= $form->field($model, 'trans_name') ?>
 
-    <?= $form->field($model, 'transaction_narrative') ?>
+    <?= $form->field($model, 'trans_type_description') ?>
 
     <div class="form-group">
         <?= Html::submitButton(Yii::t('app', 'Search'), ['class' => 'btn btn-primary']) ?>

@@ -1,14 +1,14 @@
 <?php
 
-namespace app\modules\setting\Models;
+namespace app\modules\setting\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\modules\setting\Models\FixedAssetsType;
+use app\modules\setting\models\FixedAssetsType;
 
 /**
- * FixedAssetsTypeSearch represents the model behind the search form about `app\modules\setting\Models\FixedAssetsType`.
+ * FixedAssetsTypeSearch represents the model behind the search form about `app\modules\setting\models\FixedAssetsType`.
  */
 class FixedAssetsTypeSearch extends FixedAssetsType
 {

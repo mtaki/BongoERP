@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model app\modules\setting\Models\VendorType */
+/* @var $model app\modules\setting\models\VendorType */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 <div class="contentpanel">
@@ -46,72 +46,16 @@ use yii\widgets\ActiveForm;
 			
 
 			<div class="form-group">
-                  	<label class="col-sm-3 control-label">Vendor sub gl</label>
+                  	<label class="col-sm-3 control-label">Vendor type</label>
                   	<div class="col-sm-9">
-					<input type="text" name="vendor_sub_gl" class="form-control"></div>
+					<input type="text" name="Vendor_type" class="form-control"></div>
                 	</div><!--/form-group-->
 			
 
 			<div class="form-group">
-                  	<label class="col-sm-3 control-label">Vendor type idd</label>
+                  	<label class="col-sm-3 control-label">Vendor description</label>
                   	<div class="col-sm-9">
-					<input type="text" name="vendor_type_idd" class="form-control"></div>
-                	</div><!--/form-group-->
-			
-
-			<div class="form-group">
-                  	<label class="col-sm-3 control-label">Vendor name</label>
-                  	<div class="col-sm-9">
-					<input type="text" name="vendor_name" class="form-control"></div>
-                	</div><!--/form-group-->
-			
-
-			<div class="form-group">
-                  	<label class="col-sm-3 control-label">Vendor addres</label>
-                  	<div class="col-sm-9">
-					<input type="text" name="vendor_addres" class="form-control"></div>
-                	</div><!--/form-group-->
-			
-
-			<div class="form-group">
-                  	<label class="col-sm-3 control-label">Vendor industry</label>
-                  	<div class="col-sm-9">
-					<input type="text" name="vendor_industry" class="form-control"></div>
-                	</div><!--/form-group-->
-			
-
-			<div class="form-group">
-                  	<label class="col-sm-3 control-label">Vendor telefone</label>
-                  	<div class="col-sm-9">
-					<input type="text" name="vendor_telefone" class="form-control"></div>
-                	</div><!--/form-group-->
-			
-
-			<div class="form-group">
-                  	<label class="col-sm-3 control-label">Vendors email</label>
-                  	<div class="col-sm-9">
-					<input type="text" name="vendors_email" class="form-control"></div>
-                	</div><!--/form-group-->
-			
-
-			<div class="form-group">
-                  	<label class="col-sm-3 control-label">Vendors bank</label>
-                  	<div class="col-sm-9">
-					<input type="text" name="vendors_bank" class="form-control"></div>
-                	</div><!--/form-group-->
-			
-
-			<div class="form-group">
-                  	<label class="col-sm-3 control-label">Vendors account no</label>
-                  	<div class="col-sm-9">
-					<input type="text" name="vendors_account_no" class="form-control"></div>
-                	</div><!--/form-group-->
-			
-
-			<div class="form-group">
-                  	<label class="col-sm-3 control-label">Vendors other terms</label>
-                  	<div class="col-sm-9">
-					<input type="text" name="vendors_other_terms" class="form-control"></div>
+					<input type="text" name="vendor_description" class="form-control"></div>
                 	</div><!--/form-group-->
 			
 
@@ -137,91 +81,19 @@ use yii\widgets\ActiveForm;
  <?php $form = ActiveForm::begin(); ?>
 
 					<div class="form-group">
-		   <label class="col-sm-3 control-label">Vendor sub gl</label>
+		   <label class="col-sm-3 control-label">Vendor type</label>
            <div class="col-sm-9">
 		
-				<?= $form->field($model,'vendor_sub_gl')->textInput(['maxlength' => true])->label('') ?>
+				<?= $form->field($model,'Vendor_type')->textInput(['maxlength' => true])->label('') ?>
 
 		
 				</div>
 		</div><!--/form-group-->
 								<div class="form-group">
-		   <label class="col-sm-3 control-label">Vendor type idd</label>
+		   <label class="col-sm-3 control-label">Vendor description</label>
            <div class="col-sm-9">
 		
-				<?= $form->field($model,'vendor_type_idd')->textInput(['maxlength' => true])->label('') ?>
-
-		
-				</div>
-		</div><!--/form-group-->
-								<div class="form-group">
-		   <label class="col-sm-3 control-label">Vendor name</label>
-           <div class="col-sm-9">
-		
-				<?= $form->field($model,'vendor_name')->textInput(['maxlength' => true])->label('') ?>
-
-		
-				</div>
-		</div><!--/form-group-->
-								<div class="form-group">
-		   <label class="col-sm-3 control-label">Vendor addres</label>
-           <div class="col-sm-9">
-		
-				<?= $form->field($model,'vendor_addres')->textInput(['maxlength' => true])->label('') ?>
-
-		
-				</div>
-		</div><!--/form-group-->
-								<div class="form-group">
-		   <label class="col-sm-3 control-label">Vendor industry</label>
-           <div class="col-sm-9">
-		
-				<?= $form->field($model,'vendor_industry')->textInput(['maxlength' => true])->label('') ?>
-
-		
-				</div>
-		</div><!--/form-group-->
-								<div class="form-group">
-		   <label class="col-sm-3 control-label">Vendor telefone</label>
-           <div class="col-sm-9">
-		
-				<?= $form->field($model,'vendor_telefone')->textInput(['maxlength' => true])->label('') ?>
-
-		
-				</div>
-		</div><!--/form-group-->
-								<div class="form-group">
-		   <label class="col-sm-3 control-label">Vendors email</label>
-           <div class="col-sm-9">
-		
-				<?= $form->field($model,'vendors_email')->textInput(['maxlength' => true])->label('') ?>
-
-		
-				</div>
-		</div><!--/form-group-->
-								<div class="form-group">
-		   <label class="col-sm-3 control-label">Vendors bank</label>
-           <div class="col-sm-9">
-		
-				<?= $form->field($model,'vendors_bank')->textInput(['maxlength' => true])->label('') ?>
-
-		
-				</div>
-		</div><!--/form-group-->
-								<div class="form-group">
-		   <label class="col-sm-3 control-label">Vendors account no</label>
-           <div class="col-sm-9">
-		
-				<?= $form->field($model,'vendors_account_no')->textInput(['maxlength' => true])->label('') ?>
-
-		
-				</div>
-		</div><!--/form-group-->
-								<div class="form-group">
-		   <label class="col-sm-3 control-label">Vendors other terms</label>
-           <div class="col-sm-9">
-		
-				<?= $form->field($model,'vendors_other_terms')->textInput(['maxlength' => true])->label('') ?>
+				<?= $form->field($model,'vendor_description')->textInput(['maxlength' => true])->label('') ?>
 
 		
 				</div>

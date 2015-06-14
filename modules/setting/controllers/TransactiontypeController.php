@@ -3,8 +3,8 @@
 namespace app\modules\setting\controllers;
 
 use Yii;
-use app\modules\setting\Models\TransactionType;
-use app\modules\setting\Models\TransactionTypeSearch;
+use app\modules\setting\models\TransactionType;
+use app\modules\setting\models\TransactionTypeSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -43,7 +43,7 @@ class TransactiontypeController extends Controller
 
     /**
      * Displays a single TransactionType model.
-     * @param string $id
+     * @param integer $id
      * @return mixed
      */
     public function actionView($id)
@@ -63,7 +63,7 @@ class TransactiontypeController extends Controller
         $model = new TransactionType();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->trans_code]);
+            return $this->redirect(['view', 'id' => $model->tran_type_id]);
         } else {
             return $this->render('create', [
                 'model' => $model,
@@ -74,7 +74,7 @@ class TransactiontypeController extends Controller
     /**
      * Updates an existing TransactionType model.
      * If update is successful, the browser will be redirected to the 'view' page.
-     * @param string $id
+     * @param integer $id
      * @return mixed
      */
     public function actionUpdate($id)
@@ -82,7 +82,7 @@ class TransactiontypeController extends Controller
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->trans_code]);
+            return $this->redirect(['view', 'id' => $model->tran_type_id]);
         } else {
             return $this->render('update', [
                 'model' => $model,
@@ -93,7 +93,7 @@ class TransactiontypeController extends Controller
     /**
      * Deletes an existing TransactionType model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
-     * @param string $id
+     * @param integer $id
      * @return mixed
      */
     public function actionDelete($id)
@@ -106,7 +106,7 @@ class TransactiontypeController extends Controller
     /**
      * Finds the TransactionType model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
-     * @param string $id
+     * @param integer $id
      * @return TransactionType the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
